@@ -1,0 +1,1 @@
+web: gunicorn fine_spirits.wsgi:application 
