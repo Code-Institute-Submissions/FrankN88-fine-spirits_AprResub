@@ -1,108 +1,694 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Fine Spirits Shop
 
-Welcome USER_NAME,
+<h1 align="center">Fine Spirits :cocktail: | Milestone :four: Project </h1>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Image of the mockup of the live website](add_mockup_responsive)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### [View live project here](heroku)
+### [View the testing information here - (TESTING.md) ](TESTING.md)
 
-## Gitpod Reminders
+## Overview
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Fine Spirits shop is an ecommerce website allowing users to purchase bottles. It has been developed as milestone project 4 as part of the Code Institute - Diploma in Software Development (Full stack) course.
+The website is designed to be responsive and accessible on all devices; being at the same time simple but pleasant.
 
 ---
 
-Happy coding!
+## Table of Contents
+
+1. [UX](#ux)
+- [User Stories](#user-stories)
+- [User Centered Design](#user-centered-design)
+  - [Strategy](#strategy)
+    - [User needs](#user-needs)
+  - [Scope](#scope)
+  - [Structure](#structure)
+  - [Skeleton and Wireframes](#Skeleton-and-Wireframes)
+
+2. [DESIGN](#design)
+- [Color scheme](#color-scheme)
+- [Typography](#typography)
+- [Imagery](#imagery)
+- [Logo](#logo)
+
+3. [DATABASE MODEL](#database-model)
+- [Database model features](#database-model-features)
+
+4. [FEATURES](#features)
+- [Design Features](#design-features)
+- [Features left to implement](#features-left-to-implement)
+
+5. [TECHNOLOGIES USED](#technologies-used)
+- [Syntax](#syntax)
+- [Frameworks, Libraries & Programs](#frameworks-libraries-&-programs)
+
+6. [TESTING](#testing)
+- [Testing document](TESTING.md)
+
+7. [DEPLOYMENT](#deployment)
+- [Mongo Database](#mongo-database)
+- [Heroku](#heroku)
+- [Amazon Web Services](#amazon-web-services)
+- [Github](#github)
+  - [Deploying on GitHub Pages](#deploying-on-gitHub-pages)
+  - [Forking the repository](#forking-the-repository)
+  - [Creating a Clone](#creating-a-clone)
+
+8. [CREDITS](#credits)
+
+9. [REFERENCES](#references)
+
+10. [ACKNOWLEDGEMENTS](#acknowledgements)
+
+## UX
+
+### **User stories**
+
+ #### As an anonymous user/ first time visitor I want to:
+  1. Be able to easily navigate throughout the site to visualise content and contacts.
+  2. Check out a specific bottle, visualise the relative details and price.
+  3. Purchase a bottle.
+  4. Locate their social media links to see their followings on social media in order to be updated about their latest releases.
+
+ #### As a registered user/frequent visitor I want to (on top of the anonymous user functionalities):
+  5. Be able to log in.
+  6. Be able to log out.
+  7. Be able to delete my account.
+  8. Be able to add personal details.
+  9. Be able to update personal details.
+  10. Be able view my order history.
+
+ #### As the admin I want to:
+  11. Be able to add products to the site.
+  12. Be able to update product details.
+  13. Be able to delete products from the site. 
+  14. Have unique access to all features.
+
+  #### As the website owner I want to:
+  15. Make the website as accessible and responsive as possible.
+  16. Gain a better understanding of the audience by checking their feedback both via the social networks.
+  17. Use reviews to increase customer satisfaction.
+
+---
+
+## USER CENTERED DESIGN
+
+### **Strategy**
+
+- #### User needs
+
+The main goal of this website is to increase more and more the popularity of the shop in order to increase sales too.
+Registered users will be able to see their previous orders, their current ones and get discounts as the registration is treated like a loyalty card membership.
+The website will show a bright palette as well as minimalistic but aesthetically pleasing imagery to invite users to check out the products.
+
+- **Demographic:**
+  - 18 + years of age.
+  - Anyone who is interested in spirits.
+  - Anyone who would like to purchase a bottle as a present for a friend.
+
+The steps a new user would ideally take when landing onto the website are the following:
+  - Explore the websites landing page, where the information will explain the user the reason to be of the site.
+  - Create a new account.
+  - Explore the additional features available to registered users.
+  - Purchase the desired bottle.
+  - Get the feedback of the purchase.
+  - Log in/out to check the progress.
+  - Check out the links in the footer.
+
+The website needs to enable the **User** to:
+  - Easy access the features of the website.
+  - Register and log in if further interested.
+  - Get in touch with the website owner and/or admin.
+  - Give feedback.
+
+The website needs to enable the **Website owner and/or admin** to:
+  - Develop an online presence .
+  - Provide an easily navigable website for users.
+  - Improve the website thanks to the contacts.
+
+This will all be achieved through creating a clear and strong UI focusing on well structured content. Having a clear hierarchy will allow the user to navigate and use the functionality of the website without the need of instructions. Simplicity and UX friendly functionality will be the strongholds of the whole project. 
+
+---
+
+### **Scope**
+
+- **Features within the design plan with highest priority:**
+  - Minimal but functional and appealing homepage .
+  - Navigation links clearly visible on the top of the website.
+  - Responsive navigation bar.
+  - Only allow registered users to create and manage their own accounts.
+  - Only allow registered users to check out their previous orders.
+  - Only allow registered users to delete their account.
+
+- **Lower priority features that may not be included in the initial release of the website:**
+  - The ability for logged in users to search the website database.
+  - Search bar on the navigation bar so the users have fast access to their researches.
+  - Contact section to send an email to the Admin directly from the website.
+
+---
+
+### Structure
+
+The information architecture was organized in a fluid and clear way in order to ensure that users could navigate through the site with ease and efficiency.
+
+![Site Map](add_image)
+
+---
+
+### Skeleton and Wireframes
+Wireframe mockups were created in Figma Workspace [Click here for final wireframes](add_wireframes).
+The mobile view is intentionally made disproportionate to show how the full page might look on a mobile screen.
+Several style changes were made in the final project compared to the inital wireframe on [Figma](https://www.figma.com/ "Link to Figma page"). Those changes were mainly related to colours, font size, positioning on the page; all aimed at providing the best user experience and responsiveness.
+
+---
+
+## DESIGN
+
+The design of the website was created to be as simple and harmonious as possible, not to distract the user with too many color schemes and trying to bring the focus onto the game itself.
+
+### **Color scheme**
+
+The colours used in this project are presented on a light background, to keep a minimalistic and tidy website, as well as keeping the color contrast the highest possible to facilitate the screen readers and make this site accessible to all. In addition to that there are also some brighter features thought specifically to draw the attention of the user to the main parts.
+ 
+Please check out the colour Colour palette.
+ <details><summary>Colour palette</summary>
+    <img src="add_colour_palette">
+ </details>
+
+---
+
+### **Typography**
+
+- The selected font for the whole project is [Helvetica](https://en.wikipedia.org/wiki/Helvetica)
+
+---
+
+### **Imagery**
+
+- For this specific project imagery has been kept very minimalist in order to concentrate the work on the functionality of the app. Images have been selected from [Unsplash](https://unsplash.com/ "Link to Unsplash page").
+- Other images come from my personal archive.
+
+---
+
+### **Logo**
+
+- The favicon was created using [Favicon.io](https://favicon.io/favicon-converter/) and the logo used to create it was created using an online application called [Freelogodesign](https://it.freelogodesign.org/). It represents a simple glass/botle with the "Fine Spirits" words under.
+ <details><summary>Logo</summary>
+    <img src="docs/wireframes/logo.png">
+ </details>
+
+---
+
+## Database Model
+
+### Database model features
+
+- The website is a data-centric one with html, javascript, css used with the bootstrap(version 5) framework as a frontend
+- The backend consists of Python built with the Django framework with a database of a Postgres for the deployed Heroku version (production).
+- [Postgres](https://www.postgresql.org/) is a powerful, open source object-relational database system.
+- [SQLLite](https://www.sqlite.org/index.html) database was used for local development. 
+
+- This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database.
+
+![DB Data Structure](add_image)
+
+---
+
+## Features
+
+The website has the following features based on:
+
+1. A user not logged into the site
+2. A regular user logged into the site
+3. An admin user
+The navigation buttons update depending on whether a user is logged in or not, and whether that user is the admin:
+
+ Nav Link              |Not logged in  |Logged in as regular user|Logged in as admin
+:-------------         |:------------- |:----------------|:------------- |
+Home     |&#9989;        |&#9989;          |&#9989; |
+Products           |&#9989;        |&#9989;          |&#9989; |
+Product Detail           |&#9989;        |&#9989;          |&#9989; |
+Products Detail (Review)          |&#10060;        |&#9989;          |&#9989; |
+Product Management(Add Product)     |&#10060;       |&#10060;         |&#9989; |
+Product Management(Edit Product)     |&#10060;       |&#10060;         |&#9989; |
+Product Management(Delete Product)     |&#10060;       |&#10060;         |&#9989; |
+Favourites     |&#10060;       |&#9989;         |&#9989; |
+Add to Favourites     |&#10060;       |&#9989;        |&#9989; |
+My Profile             |&#10060;       |&#9989;          |&#9989; |
+Order History         |&#10060;       |&#9989;          |&#9989; |
+Log out               |&#10060;       |&#9989;          |&#9989; |
+Register               |&#9989;        |&#10060;         |&#10060; |
+Log in               |&#9989;        |&#10060;         |&#10060; |
+News                |&#9989;        |&#9989;         |&#9989; |
+News Item             |&#9989;        |&#9989;        |&#9989; |
+News Item (comment) |&#10060;        |&#9989;          |&#9989; |
+Bag |&#9989;        |&#9989;          |&#9989; |
+Checkout |&#9989;        |&#9989;          |&#9989; |
+Checkout success |&#9989;        |&#9989;          |&#9989; |
+
+### Design Features
+Each page of the website features a consistent responsive navigational system:
+
+<br>
+
+#### Header
+- The **Header** contains a conventionally placed **logo** at the top left of the page (clicking this will redirect users back to the home page) and **navigation bar** at the top right of the page. Hovering over the buttons in the navbar will trigger hover effect.
+<ul>
+    <li><strong>User stories covered by this feature:</strong>  
+    </li>
+    <li><strong>X</strong> - xxxxx.
+    </li>
+    <li><strong>X</strong> - xxxx.
+    </li>
+    <li><strong>X</strong> - xxxxx.
+    </li>
+</ul>
+  <details><summary>Header</summary>
+    <img src="docs/testing/validators/ux_stories/back_homepage_logo.gif">
+  </details>
+
+<br>
+
+#### Navigation bar on smaller devices
+- On smaller screens, the two main buttons (Play and Login) reduce their size in a responsive way and self position at the top right next to the registration one.
+<ul>
+    <li><strong>User stories covered by this feature:</strong>  
+    </li>
+    <li><strong>x</strong> - xxxx.
+    </li>
+    <li><strong>x</strong> - xxxxxx.
+    </li>
+    <li><strong>x</strong> - xxxxxx.
+    </li>
+</ul>
+  <details><summary>Navbar on small devices</summary>
+    <img src="docs/testing/validators/ux_stories/mobile.png">
+  </details>
+
+<br>
+
+#### Footer
+- The **Footer** contains the appropriate **social media icons**, linking users to the main social media pages of the shop.
+<ul>
+    <li><strong>User stories covered by this feature:</strong>  
+    </li>
+    <li><strong>x</strong> - xxx
+    </li>
+    <li><strong>x</strong> - xxxx
+    </li>
+    <li><strong>x</strong> - xxxx.
+    </li>
+    <li><strong>x</strong> - xxx.
+    </li>
+    <li><strong>x</strong> - xxxx.
+    </li>
+    <li><strong>x</strong> - xxxx
+    </li>
+    <li><strong>x</strong> - xxxxxx
+    </li>
+    <li><strong>x</strong> - xxxxxx
+    </li>
+</ul>
+  <details><summary>Footer</summary>
+    <img src="docs/testing/validators/ux_stories/footer.png">
+  </details>
+
+<br>
+
+#### Mailto
+- In the footer, there is a **Mailto** embedded in the email. Hovering over the email will trigger hover effect.
+<ul>
+    <li><strong>User stories covered by this feature:</strong>  
+    </li>
+    <li><strong>x</strong> - xxxx
+    </li>
+    <li><strong>x</strong> - xxxx
+    </li>
+</ul>
+  <details><summary>Mailto</summary>
+    <img src="docs/testing/validators/ux_stories/mailto.gif">
+  </details>
+
+<br>
+
+#### Back to the top button
+- **Back to the top button**  - This <strong>button</strong> :arrow_up: is present in the footer so that the user can comfortably click them to be redirected to the top of the page. This feature improves the quality of navigation, especially if using smartphones.
+<ul>
+    <li><strong>User stories covered by this feature:</strong>  
+    </li>
+    <li><strong>x</strong> - xxx.
+    </li>
+    <li><strong>x</strong> - xxxx
+    </li>
+</ul>
+  <details><summary>Btn back to the top</summary>
+    <img src="docs/testing/validators/ux_stories/button_up.gif">
+  </details>
+
+<br>
+
+<dl>
+  <dt><a href="home.html" target="_blank" alt="Quiz game Home Page">Home Page</a></dt>
+     <ul>
+        <li><strong>User stories covered by this feature:</strong>  
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+        <li><strong>x</strong> - x
+        </li>
+     </ul>
+
+  <dd>The Home Page consists of the following elements:
+     <ul>
+          <li><strong>Page</strong> - x
+          </li>
+          <li><strong>Page</strong> - x
+          </li>
+     </ul>
+        <details><summary>Home</summary>
+        <img src="add_image">
+        </details>
+  </dd>
+
+  <br>
+
+  <dt><a href="login.html" target="_blank" alt="login Page">Login page</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The Login page consists of the following elements:
+     <ul>
+          <li><strong>Login</strong> - x
+          </li>
+          <li><strong>Anonymous user</strong> - Allows the user who does not want to register to keep checking anyway by clicking on the appropriate button. The ideal situation would be to have as many registered users as possible but it is always good to allow choice to those who do not want to register.
+          </li>
+          <li><strong>Registration</strong> - It opens the registration page.
+          </li>
+     </ul>
+         <details><summary>Login</summary>
+         <img src="docs/wireframes/login_devices.png">
+         </details>
+  </dd>
+
+  <br>
+
+  <dt><a href="registration.html" target="_blank" alt="registration Page">Registration Page</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The Registration page consists of the following elements:
+     <ul>
+          <li><strong>Username</strong> - x
+          </li>
+          <li><strong>Password</strong> - x
+          </li>
+          <li><strong>Repeat Password</strong> - x
+          </li>
+          <li><strong>Create Account</strong> - x
+          </li>
+     </ul>
+         <details><summary>Registration</summary>
+         <img src="docs/wireframes/registration_devices.png">
+         </details>
+  </dd>
+
+  <br>
+
+  <dt><a href="404.html" target="_blank" alt="404 Page">404 Page</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The 404 page consists of the following elements:
+     <ul>
+          <li><strong>Line 1</strong> - It shows that the user is on page 404.
+          </li>
+          <li><strong>Line 2</strong> - Standard line for a page 404, inviting the user to click on the links to go back to a page of the website.
+          </li>
+     </ul>
+         <details><summary>404</summary>
+         <img src="docs/wireframes/404_devices.png">
+         </details>
+  </dd>
+  </dl>
+
+  <br>
+
+### Features left to implement
+
+- x
+- x
+- x
+
+---
+
+## TECHNOLOGIES USED
+
+### **Syntax**
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [JQuery](https://jquery.com/)
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+---
+
+### Frameworks, Libraries & Programs
+
+- [Figma:](https://www.figma.com/login)
+  - Figma was used to create the [wireframes](put link to wireframes) during the design process.
+
+- [Font Awesome](https://fontawesome.com/)
+  - Used to include icons.
+
+- [Google Fonts](https://fonts.google.com/)
+  - Used to import the three fonts used throughout the site xxxxxxxx.
+
+- [GitHub](https://github.com/)
+  - Used to host the entire repository for the project.
+
+- [GitPod](https://www.gitpod.io/)
+  - The code editor used to build the entire project.
+
+- [TinyPNG](https://tinypng.com/)
+  - Used this to compress the images used on the website to make files smaller.
+
+- [Favicon](https://favicon.io/)
+  - Used to generate the websites favicon logo of various sizes for different devices.
+
+- [W3C Validator HTML](https://validator.w3.org/)
+  - Validator for HTML.
+
+- [W3C Validator CSS](https://jigsaw.w3.org/css-validator/)
+  - Validator for CSS.
+
+- [JSHint](https://jshint.com/)
+  - This is a tool used to detect errors or potential problems within Javascript code, used to test and validate all Javascript written for this project.
+
+- [Pylint](https://www.pylint.org/)
+  - Pylint is a source-code, bug and quality checker for the Python programming language.
+
+- [Django](https://www.djangoproject.com/)
+  - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+
+- [Heroku](https://id.heroku.com/login)
+  - Heroku is a cloud platform as a service (PaaS) supporting several programming languages.
+  - The Heroku network runs the customer's apps in virtual containers which execute on a reliable runtime environment.
+
+- [BrowserStack](https://www.browserstack.com/)
+  - Test the functionality and appearance of the project on all main browsers.
+
+- [W3Schools](https://www.w3schools.com/)
+  - To check demos and explanations.
+
+- [Stack overflow](https://stackoverflow.com/)
+  - To find answers to most common problems.
+
+- [Lambda Test](https://www.lambdatest.com/)
+  - For cross-browser testing among the major browsers.
+
+- [Postgres Db](https://www.postgresql.org/)
+  - PostgreSQL is a powerful, open source object-relational database system.
+
+---
+
+## Testing
+Testing information can be found in a separate testing :information_source: [file](TESTING.md "Link to testing file")
+
+---
+
+## Deployment
+
+### Heroku and Postgres DB
+To deploy this application to Heroku, run the following steps:
+
+1. Create an account at heroku.com
+2. Create an app, give it a name (for example fine-spirits), and select a region.
+3. Under resources search for postgres, and add a Postgres database to the app.
+
+![Heroku Postgres](readme_files/heroku/heroku_postgres.png)
+    
+4. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
+5. Install the plugins dj-database-url and psycopg2-binary.
+6. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+7. Create a Procfile with the text: web: gunicorn fine_spirits.wsgi:application for example.
+8. In the settings.py ensure the connection is to the Heroku postgres database.
+9. Ensure debug is set to false in the settings.py file.
+10. Add localhost/127.0.0.1, and fine-spirits.herokuapp.com to the ALLOWED_HOSTS variable in settings.py.
+11. Run "python3 manage.py showmigrations" to check the status of the migrations.
+12. Run "python3 manage.py migrate" to migrate the database.
+13. Run "python3 manage.py createsuperuser" to create a super/admin user.
+14. Install gunicorn and add it to the requirements.tx file using the command pip3 freeze > requirements.txt
+15. From the CLI login to Heroku using the command heroku git:remote -a fine-spirits
+16. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a fine-spirits
+17. Push the code to Heroku using the command git push heroku master.
+18. Ensure the following environment variables are set in Heroku.
+
+![Heroku Env variables](readme_files/heroku/heroku_vars.png)
+
+19. Connect the app to GitHub, and enable automatic deploys from main
+
+![Heroku Postgres](readme_files/heroku/heroku_connected.png)
+    
+20. Click deploy to deploy your application to Heroku for the first time
+21. Click on the link provided to access the application
+22. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+
+
+
+### Amazon Web Services
+
+1. Create an account at aws.amazon.com
+2. Open the IAM application and create a new user.
+3. Set the Amazon S3 for the user and note the users AWS ACCESS and SECRET keys.
+4. Open the S3 application and create a new bucket. For the purpose of this application the bucket name is myquizgame.
+![Bucket](docs/deployment/aws/bucket.png)
+5. Consult the [AWS documentation](https://aws.amazon.com/s3/ "Link to AWS Docs") to set it up according to your needs.
+6. The s3 bucket is now updated to be accessed by your application.
+7. In the app.py route update the variables s3_bucket_name and s3_bucket_url with the correct information that you have set up, for example:
+<br>
+<code>s3_bucket_name = "xxx"</code><br>
+<code>s3_bucket_url = "xxxxx" </code>
+
+### Github
+
+#### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/FrankN88/quiz-game "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "GitHub Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+8. At the time of submitting this Milestone project, the Development Branch and Master Branch are identical.
+
+#### Forking the Repository
+By forking the GitHub Repository a copy of the original repository is made on the GitHub account. To view and/or to make  changes without affecting the original repository: 
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/FrankN88/quiz-game "Link to GitHub Repo").
+3. At the top of the repository, on the right side of the page, select "Fork".
+4. You should now have a copy of the original repository in your GitHub account.
+
+#### Creating a Clone
+How to run this project locally:
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
+2. After installation, restart the browser.
+3. Log into [GitHub](https://github.com/login/ "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+4. Locate the [GitHub Repository](https://github.com/FrankN88/quiz-game "Link to GitHub Repo").
+5. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally. 
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process
+
+---
+
+## CREDITS
+
+### Content
+- Stack Overflow for guidance
+- Psychological properties of text colour in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page") for the Boostrap features.
+
+### Media
+- All the other Images were downloaded from [Unsplash](https://unsplash.com/ "Link to Unsplash page").
+
+### Code
+The developer consulted multiple sites in order to better understand the code that they were trying to implement. The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
+- [MDN Web Docs](https://developer.mozilla.org/en-US/ "Link to MDN Web Docs")
+- [jQuery](https://jquery.com/ "Link to jQuery page")
+- [Django](https://www.djangoproject.com/ "Link to Django project page")
+- [Python](https://www.python.org/ "Link to Python page")
+
+### Acknowledgements
+- My mentor Mo Shami for continuous helpful feedback.
+- Tutor support at Code Institute for their support.
+- My family for opinions and feedback.
+
+***
+
+---
+
