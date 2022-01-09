@@ -36,6 +36,7 @@ The website is designed to be responsive and accessible on all devices; being at
 
 4. [FEATURES](#features)
 - [Design Features](#design-features)
+- [Admin Feature](#Admin-Feature)
 - [Features left to implement](#features-left-to-implement)
 
 5. [TECHNOLOGIES USED](#technologies-used)
@@ -45,20 +46,21 @@ The website is designed to be responsive and accessible on all devices; being at
 6. [TESTING](#testing)
 - [Testing document](TESTING.md)
 
-7. [DEPLOYMENT](#deployment)
-- [Mongo Database](#mongo-database)
-- [Heroku](#heroku)
+7. [API]
+- [Stripe](#stripe)
+
+8. [DEPLOYMENT](#deployment)
+- [Heroku and Postgres DB](#Heroku-and-Postgres-DB)
 - [Amazon Web Services](#amazon-web-services)
 - [Github](#github)
-  - [Deploying on GitHub Pages](#deploying-on-gitHub-pages)
   - [Forking the repository](#forking-the-repository)
   - [Creating a Clone](#creating-a-clone)
 
-8. [CREDITS](#credits)
+9. [CREDITS](#credits)
 
-9. [REFERENCES](#references)
+10. [REFERENCES](#references)
 
-10. [ACKNOWLEDGEMENTS](#acknowledgements)
+11. [ACKNOWLEDGEMENTS](#acknowledgements)
 
 ## UX
 
@@ -580,6 +582,35 @@ Each page of the website features a consistent responsive navigational system:
 ## Testing
 Testing information can be found in a separate testing :information_source: [file](TESTING.md "Link to testing file")
 
+---
+
+## API
+
+### Stripe
+To set up Stripe, proceed as following:
+
+1. Register for an account at stripe.com
+2. Click on the Developers section of your account once logged in.
+3. Under Developers, click on the API keys section.
+
+![API keys](image)
+
+4. Note the values for the publishable and secret keys
+5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+<br><code>os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')</code>
+<br><code>os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')</code>
+
+6. Back in the Developers section of your stripe account click on Webhooks
+7. Create a webhook with the url of your website <url>/checkout/wh/, for example: https://dashboard.heroku.com/apps/fine-spirits/checkout/wh/
+8. Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
+
+![Webhook](image)
+
+9. Note the key created for this webhook
+10. In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values
+<code>os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')</code>
+
+11. Feel free to test out the webhook and note the success/fail attempts for troubleshooting
 ---
 
 ## Deployment
