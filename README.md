@@ -181,7 +181,7 @@ Please check out the colour Colour palette.
 
 ### **Typography**
 
-- The selected font for the whole project is [Helvetica](https://en.wikipedia.org/wiki/Helvetica)
+- The selected font for the whole project is [Poppins](https://fonts.google.com/specimen/Poppins) with [Sans-Serif](https://en.wikipedia.org/wiki/Sans-serif) as the fallback font in case, for any reason, the font will not be imported into the site correctly.
 
 ---
 
@@ -630,7 +630,7 @@ To deploy this application to Heroku, run the following steps:
 7. Create a Procfile with the text: web: gunicorn fine_spirits.wsgi:application for example.
 8. In the settings.py ensure the connection is to the Heroku postgres database.
 9. Ensure debug is set to false in the settings.py file.
-10. Add localhost/127.0.0.1, and fine-spirits.herokuapp.com to the ALLOWED_HOSTS variable in settings.py.
+10. Add localhost and fine-spirits.herokuapp.com to the ALLOWED_HOSTS variable in settings.py.
 11. Run "python3 manage.py showmigrations" to check the status of the migrations.
 12. Run "python3 manage.py migrate" to migrate the database.
 13. Run "python3 manage.py createsuperuser" to create a super/admin user.
