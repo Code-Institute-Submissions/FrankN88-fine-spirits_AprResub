@@ -156,7 +156,7 @@ The information architecture was organized in a fluid and clear way in order to 
 ---
 
 ### Skeleton and Wireframes
-Wireframe mockups were created in Figma Workspace [Click here for final wireframes](add_wireframes).
+Wireframe mockups were created in Figma Workspace [Click here for final wireframes](readme_files/wireframes).
 The mobile view is intentionally made disproportionate to show how the full page might look on a mobile screen.
 Several style changes were made in the final project compared to the inital wireframe on [Figma](https://www.figma.com/ "Link to Figma page"). Those changes were mainly related to colours, font size, positioning on the page; all aimed at providing the best user experience and responsiveness.
 
@@ -246,7 +246,7 @@ Bag |&#9989;        |&#9989;          |&#9989; |
 Checkout |&#9989;        |&#9989;          |&#9989; |
 Checkout success |&#9989;        |&#9989;          |&#9989; |
 
-### Feature Admin
+### Admin Feature
 
 xxx add images form django admin
 
