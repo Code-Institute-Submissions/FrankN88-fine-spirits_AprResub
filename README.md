@@ -4,7 +4,7 @@
 
 ![Image of the mockup of the live website](add_mockup_responsive)
 
-### [View live project here](heroku)
+### [View live project here](https://fine-spirits.herokuapp.com/)
 ### [View the testing information here - (TESTING.md) ](TESTING.md)
 
 ## Overview
@@ -192,9 +192,9 @@ Please check out the colour Colour palette.
 
 ### **Logo**
 
-- The favicon was created using [Favicon.io](https://favicon.io/favicon-converter/) and the logo used to create it was created using an online application called [Freelogodesign](https://it.freelogodesign.org/). It represents a simple glass/botle with the "Fine Spirits" words under.
+- The favicon was created using [Favicon.io](https://favicon.io/favicon-converter/) and the logo used to create it was created using an online application called [Freelogodesign](https://it.freelogodesign.org/). It represents a simple glass/botle with the "Fine Spirits" words.
  <details><summary>Logo</summary>
-    <img src="docs/wireframes/logo.png">
+    <img src="static/img/logo.jpg">
  </details>
 
 ---
@@ -245,6 +245,10 @@ News Item (comment) |&#10060;        |&#9989;          |&#9989; |
 Bag |&#9989;        |&#9989;          |&#9989; |
 Checkout |&#9989;        |&#9989;          |&#9989; |
 Checkout success |&#9989;        |&#9989;          |&#9989; |
+
+### Feature Admin
+
+xxx add images form django admin
 
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
