@@ -650,8 +650,6 @@ To deploy this application to Heroku, run the following steps:
 21. Click on the link provided to access the application
 22. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
 
-
-
 ### Amazon Web Services
 
 1. Create an account at aws.amazon.com
@@ -695,6 +693,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page") for the Boostrap features.
 
 ### Media
+- Some images come from my personal archive.
 - All the other Images were downloaded from [Unsplash](https://unsplash.com/ "Link to Unsplash page").
 
 ### Code
