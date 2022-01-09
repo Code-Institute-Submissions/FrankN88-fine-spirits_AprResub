@@ -1,0 +1,6 @@
+/* ----- Google Fonts import ----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* ----- Font ----- */
+* {
+    font-family: 'Poppins', sans-serif;
+}
