@@ -46,7 +46,7 @@ The website is designed to be responsive and accessible on all devices; being at
 6. [TESTING](#testing)
 - [Testing document](TESTING.md)
 
-7. [API]
+7. [API](#api)
 - [Stripe](#stripe)
 
 8. [DEPLOYMENT](#deployment)
