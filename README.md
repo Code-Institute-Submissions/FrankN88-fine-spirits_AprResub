@@ -655,7 +655,7 @@ To deploy this application to Heroku, run the following steps:
 1. Create an account at aws.amazon.com
 2. Open the IAM application and create a new user.
 3. Set the Amazon S3 for the user and note the users AWS ACCESS and SECRET keys.
-4. Open the S3 application and create a new bucket. For the purpose of this application the bucket name is myquizgame.
+4. Open the S3 application and create a new bucket. For the purpose of this application the bucket name is xxxx.
 ![Bucket](docs/deployment/aws/bucket.png)
 5. Consult the [AWS documentation](https://aws.amazon.com/s3/ "Link to AWS Docs") to set it up according to your needs.
 6. The s3 bucket is now updated to be accessed by your application.
