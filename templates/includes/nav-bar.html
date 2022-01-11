@@ -1,0 +1,25 @@
+{% load static %}
+
+<div class="nav-bar">
+
+    <a href="{% url 'home' %}">
+        <img src="{% static 'img/logo.jpg' %}" class="logo"  alt="website logo">
+    </a>
+
+    <div class="nav-menu-account">
+        <a class="btn btn-light ml-auto" href="#">
+            <i class="fas fa-user-circle"></i>
+        </a>
+
+        <a class="btn btn-light ml-auto" href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+
+        <button type="button" class="btn btn-light ml-auto" onclick="menu()">
+            <i class="fas fa-bars"></i>
+        </button>  
+    </div>
+
+    
+
+</div>

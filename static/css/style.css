@@ -4,3 +4,73 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ----- HEADER ----- */
+header{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo{
+    height: 50px;
+}
+
+header .nav-bar{
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-bar i{
+    font-size: 120%;
+}
+
+header .nav-bar button{
+    display: none;
+}
+
+header .nav-bar-bottom{
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .nav-bar-bottom a{
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+header .nav-menu-account{
+    margin-left: auto;   
+}
+
+header .nav-bar-bottom.menu-open{
+    display: block;
+}
+
+/* ----- MOBILE HEADER ----- */
+@media screen and (max-width: 764px) {
+    header .nav-bar button{ 
+        display: inline-block;
+    }
+
+    header .nav-menu a{
+        display: block;
+    }
+
+    header .nav-bar-bottom{
+        flex-direction: column;
+        display: none;
+        text-align: left;
+    }
+
+    header .nav-bar-bottom a{
+        padding: 10px 0;
+        border-bottom: 1px solid #f8f8f8;
+    }
+    
+    header .nav-bar-bottom a:last-child{
+        border-bottom: none;
+    }
+
+}
