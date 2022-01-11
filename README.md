@@ -654,41 +654,39 @@ To deploy this application to Heroku, run the following steps:
 To set up AWS S3 Bucket, proceed as follows:
 
 1. Create an account at aws.amazon.com
-2. Open the S3 application and create an S3 bucket named "bucket_name".
+2. Open the S3 application and create an S3 bucket named "fine-spirits".
 3. Uncheck the "Block All Public access setting".
 4. In the Properties section, navigate to the "Static Website Hosting" section and click edit.
 5. Enable the setting, and set the index.html and the error.html values.
-![AWS Static](add_image)
+![AWS Static](readme_files/aws/aws_img1.png)
 6. In the Permissions section, click edit on the CORS configuration and set the below configuration.
-![AWS CORS](add_image)
+![AWS CORS](readme_files/aws/aws_img3_CORS.png)
 7. In the permissions section, click edit on the bucket policy and generate and set the below configuration(or similar to your settings).
-![AWS Bucket Policy](add_image)
+![AWS Bucket Policy](readme_files/aws/aws_img2_bucket_policy.png)
 8. In the permissions section, click edit on the Access control list(ACL).
 9. Set Read access for the Bucket ACL for Everyone (Public Access).
 10. The bucket is created, the next step is to open the IAM application to set up access.
 11. Create a new user group named "add_group_name".
 12. Add the "AmazonS3FullAccess" policy permission for the user group.
-![AWS Bucket Policy](add_image)
+![AWS Bucket Policy](readme_files/aws/aws_img4_amz_fullaccess.png)
 13. Go to "Policies" and click "Create New Policy"
 14. Click "Import Managed Policy" and select "AmazonS3FullAccess" > Click 'Import'.
 15. In the JSON editor, update the policy "Resource" to the following:
 
 <br><code>"Resource": [</code>
-<br><code>"arn:aws:s3:::add_group_name",</code>
-<br><code>"arn:aws:s3:::add_group_name/*"</code>
+<br><code>"arn:aws:s3:::add_fine-spirits",</code>
+<br><code>"arn:aws:s3:::add_fine-spirits/*"</code>
 <br><code>]</code>
 
 16. Give the policy a name and click "Create Policy".
 17. Add the newly created policy to the user group.
-![AWS Bucket Policy](add_image)
 18. Go to Users and create a new user
 19. Add the user to the user group "add_group_name"
 20. Select "Programmatic access" for the access type
 21. Note the AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID variables, they are used in other parts of this README for local deployment and Heroku setup.
 22. The user is now created with the correct user group and policy.
-![AWS Bucket Policy](add_image)
 23. Note the AWS code in settings.py. Note an environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage.
-![AWS Settings](add_image)
+![AWS Settings](readme_files/aws/aws_img5_settings.png)
 24. These settings set up a cache policy, set the bucket name, and the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY that you set in your aws account.
 25. The configuration also requires the media/static folders that must be setup in the AWS S3 bucket to store the media and static files.
 
