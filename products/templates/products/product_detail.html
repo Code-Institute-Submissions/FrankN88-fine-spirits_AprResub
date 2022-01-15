@@ -32,15 +32,15 @@
 
 			<hr>
 
-			<form>
-
+			<form method="POST" action="{% url 'add_to_bag' product.id %}">
+				{% csrf_token %}
 				Total quantity:
 
 				<div class="input-group mb-4" style="width:180px">
 					<div class="input-group-prepend">
 						<button class="btn btn-dark quantity_minus" type="button"><i class="fas fa-minus"></i></button>
 					</div>
-					<input type="number" min="1" max="99" name="quantity" class="form-control text-center" value="1">
+					<input type="number" min="1" max="99" name="quantity" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}" class="form-control text-center" value="1">
 					<div class="input-group-append">
 						<button class="btn btn-dark quantity_plus" type="button"><i class="fas fa-plus"></i></button>
 					</div>
@@ -48,6 +48,8 @@
 
 				<a href="{% url 'products' %}" class="btn btn-outline-dark mr-2"><i class="fas fa-angle-left mr-2"></i>Keep shopping</a>
 				<button type="submit" class="btn btn-dark"><i class="fas fa-cart-plus mr-2"></i>Add to bag</button>
+
+				<input type="hidden" name="redirect_url" value="{{ request.path }}">
 
 			</form>
 
