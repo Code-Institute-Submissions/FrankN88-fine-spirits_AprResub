@@ -95,7 +95,7 @@ header .nav-bar-bottom.menu-open{
 .products_list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
     gap: 0px;
     margin: 20px 0;
 }
@@ -144,14 +144,14 @@ header .nav-bar-bottom.menu-open{
 @media screen and (max-width: 1200px) {
     .products_list{
         grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
     }
 }
 
 @media screen and (max-width: 990px) {
     .products_list{
         grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr; 
+        grid-template-rows: 1fr; 
     }
 }
 

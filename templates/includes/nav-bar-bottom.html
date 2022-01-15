@@ -1,8 +1,18 @@
 <div class="nav-bar-bottom">
+    
     <div class="nav-menu">
         <a href="{% url 'products'%}">Products</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         <a href="#">Link 4</a>
     </div>
+
+    <form class="nav-menu-search-container" method="GET" action="{% url 'products' %}">
+        <div class="input-group">
+          <input type="text" class="form-control" name="q" placeholder="Search product">
+          <div class="input-group-append">
+            <button class="btn btn-dark" type="button"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+    </form>
 </div>
