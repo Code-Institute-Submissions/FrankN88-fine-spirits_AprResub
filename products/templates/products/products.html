@@ -3,6 +3,34 @@
 
 {% block content %}
 
-	{{products}}
+
+	<div class="products_list">
+
+	{% for product in products %}
+
+		<a class="product" href="{{product.id}}">
+
+			<div class="product_image">
+			{% if product.image %}
+				<img src="{{ MEDIA_URL }}{{product.image}}" alt="{{product.name}}">
+			{% else %}			
+				<img src="{{ MEDIA_URL }}noimage.png" alt="{{product.name}}">
+			{% endif %}
+			</div>
+
+			<div class="product_name">{{product.name}}</div>
+			<div class="product_price">$ {{product.price}}</div>
+
+			{% if product.rating %}
+				<div class="product_rate"><i class="fas fa-star-a"></i>{{product.rating}}/5</div>
+			{% else %}
+				<div class="product_rate">No rating</div>
+			{% endif %}
+
+		</a>
+
+	{% endfor %}
+
+	</div>
 	
 {% endblock %}
