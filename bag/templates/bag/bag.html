@@ -19,7 +19,11 @@
             {% for item in bag_items %}
                 <div class="bag_row">
                     <div class="bag_row_image"><img src="{{item.product.image.url }}"></div>
-                    <div class="bag_row_name">{{item.product.name}}</div>
+                    <div class="bag_row_name">
+                        {{item.product.name}}
+                        <hr>
+                        <button type="button" id="remove_{{ item.item_id }}" class="btn btn-sm btn-danger btn-remove">Remove</button>
+                    </div>
                     <div class="bag_row_qty"><span>Quantity:</span>{{item.quantity}}</div>
                     <div class="bag_row_price"><span>Price:</span>${{item.product.price}}</div>
                     <div class="bag_row_price"><span>Sub total:</span>${{item.product.price}}</div>
@@ -71,4 +75,29 @@
             </div>
         </div>
     {% endif %}
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+
+        <script type="text/javascript">
+            // Update quantity on click
+            $('.btn-update').click(function(e) {
+                var form = $(this).prev('.update-form');
+                form.submit();
+            })
+
+            // Remove item and reload on click
+            $('.btn-remove').click(function(e) {
+                var csrfToken = "{{ csrf_token }}";
+                var itemId = $(this).attr('id').split('remove_')[1];
+                var url = `/bag/remove/${itemId}/`;
+                var data = {'csrfmiddlewaretoken': csrfToken};
+
+                $.post(url, data, function() {
+                    location.reload();
+                });
+
+            })
+        </script>
 {% endblock %}
