@@ -7,7 +7,6 @@
 	<div class="single_product">
 
 		<div class="single_product_image">
-			<div class="product_image">
 			{% if product.image %}
 				<a href="{{ MEDIA_URL }}{{product.image}}" target="_blank">
 					<img src="{{ MEDIA_URL }}{{product.image}}" alt="{{product.name}}">
@@ -15,7 +14,6 @@
 			{% else %}			
 				<img src="{{ MEDIA_URL }}noimage.png" alt="{{product.name}}">
 			{% endif %}
-			</div>
 		</div>
 
 
