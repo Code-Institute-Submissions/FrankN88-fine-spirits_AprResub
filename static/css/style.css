@@ -145,3 +145,28 @@ header .nav-bar-bottom.menu-open{
         grid-template-rows: 1fr; 
     }
 }
+
+
+/* ----- SINGLE PRODUCTS PAGE ----- */
+.single_product{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.single_product_image img{
+    max-width: 100%;
+}
+
+.single_product_name{
+    font-size: 30px;
+}
+
+/* ----- SINGLE PRODUCTS PAGE MOBILE ----- */
+@media screen and (max-width: 724px) {
+    .single_product{
+        grid-template-columns: 1fr;
+    }
+}

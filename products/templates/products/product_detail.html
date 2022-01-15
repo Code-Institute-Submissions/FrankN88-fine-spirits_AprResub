@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+	<div class="single_product">
+
+		<div class="single_product_image">
+			<div class="product_image">
+			{% if product.image %}
+				<a href="{{ MEDIA_URL }}{{product.image}}" target="_blank">
+					<img src="{{ MEDIA_URL }}{{product.image}}" alt="{{product.name}}">
+				</a>
+			{% else %}			
+				<img src="{{ MEDIA_URL }}noimage.png" alt="{{product.name}}">
+			{% endif %}
+			</div>
+		</div>
+
+
+		<div class="single_product_details">
+
+			<div class="single_product_name">{{product.name}}</div>
+			<div class="single_product_price">${{product.price}}</div>
+			<div class="single_product_description">{{product.description}}</div>
+
+			<hr>
+
+			<form>
+
+				Total quantity:
+
+				<div class="input-group mb-4" style="width:180px">
+					<div class="input-group-prepend">
+						<button class="btn btn-dark quantity_minus" type="button"><i class="fas fa-minus"></i></button>
+					</div>
+					<input type="number" min="1" max="99" name="quantity" class="form-control text-center" value="1">
+					<div class="input-group-append">
+						<button class="btn btn-dark quantity_plus" type="button"><i class="fas fa-plus"></i></button>
+					</div>
+				</div>
+
+				<a href="{% url 'products' %}" class="btn btn-outline-dark mr-2"><i class="fas fa-angle-left mr-2"></i>Keep shopping</a>
+				<button type="submit" class="btn btn-dark"><i class="fas fa-cart-plus mr-2"></i>Add to bag</button>
+
+			</form>
+
+		</div>
+
+	</div>
+	
+{% endblock %}
