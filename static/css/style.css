@@ -348,3 +348,11 @@ header .sub-menu:hover div{
         display: inline-block;
     }
 }
+
+/* ----- MESSAGE TOAST ----- */
+.message-container{
+    position: fixed;
+    right: 0px;
+    z-index: 3;
+    top: 70px;
+}
