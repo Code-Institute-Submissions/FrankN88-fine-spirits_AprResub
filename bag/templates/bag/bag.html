@@ -17,17 +17,25 @@
             
             <div class="bag_row_container">
             {% for item in bag_items %}
-                <div class="bag_row">
-                    <div class="bag_row_image"><img src="{{item.product.image.url }}"></div>
-                    <div class="bag_row_name">
-                        {{item.product.name}}
-                        <hr>
-                        <button type="button" id="remove_{{ item.item_id }}" class="btn btn-sm btn-danger btn-remove">Remove</button>
+                <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                {% csrf_token %}
+                    <div class="bag_row">
+                        <div class="bag_row_image"><img src="{{item.product.image.url }}"></div>
+                        <div class="bag_row_name">
+                            {{item.product.name}}
+                            <hr>
+                            <button type="submit" class="btn btn-sm btn-dark btn-update">Update</button>
+                            <button type="button" id="remove_{{ item.item_id }}" class="btn btn-sm btn-danger btn-remove">Remove</button>
+                        </div>
+                        <div class="bag_row_qty">
+                            <span>Quantity:</span>
+                            <input name="quantity" min="1" max="99" class="form-control" type="number" value="{{item.quantity}}">
+                        </div>
+
+                        <div class="bag_row_price"><span>Price:</span>${{item.product.price}}</div>
+                        <div class="bag_row_price"><span>Sub total:</span>${{item.product.price}}</div>
                     </div>
-                    <div class="bag_row_qty"><span>Quantity:</span>{{item.quantity}}</div>
-                    <div class="bag_row_price"><span>Price:</span>${{item.product.price}}</div>
-                    <div class="bag_row_price"><span>Sub total:</span>${{item.product.price}}</div>
-                </div>
+                </form>
             {% endfor %}
             </div>
 
@@ -81,12 +89,6 @@
     {{ block.super }}
 
         <script type="text/javascript">
-            // Update quantity on click
-            $('.btn-update').click(function(e) {
-                var form = $(this).prev('.update-form');
-                form.submit();
-            })
-
             // Remove item and reload on click
             $('.btn-remove').click(function(e) {
                 var csrfToken = "{{ csrf_token }}";

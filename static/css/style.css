@@ -292,6 +292,10 @@ header .sub-menu:hover div{
     padding: 10px;
 }
 
+.bag_list .bag_row_qty input{
+    width: 80px;
+}
+
 .bag_row_sommary .bag_row_name{
     text-align: right;
 }
