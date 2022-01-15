@@ -1,5 +1,11 @@
 <div class="nav-bar-bottom">
     
+    <span>
+        <div>
+            <a href="{% url 'home' %}">Home</a>
+        </div>
+    </span>
+
     <div class="nav-menu">
         <span class="sub-menu">
             <a href="{% url 'products'%}">All products</a>
@@ -11,7 +17,7 @@
         </span>
 
         <span class="sub-menu">
-            <a>From the grapes <i class="fas fa-angle-down"></i></a>
+            <a>From the vines <i class="fas fa-angle-down"></i></a>
             <div>
                 <a href="{% url 'products' %}?category=grappa">Grappa</a>
                 <a href="{% url 'products' %}?category=cognac-armagnac">Cognac & Armagnac</a>
