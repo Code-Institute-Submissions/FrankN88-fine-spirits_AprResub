@@ -179,6 +179,16 @@ header .sub-menu:hover div{
     font-weight: bold;
 }
 
+.products_list .product_category, .single_product_category{
+    background: #333;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 10px;
+}
 
 /* ----- PRODUCTS PAGE MOBILE ----- */
 @media screen and (max-width: 1200px) {
@@ -224,6 +234,10 @@ header .sub-menu:hover div{
 
 .single_product_name{
     font-size: 30px;
+}
+
+.single_product_category{
+    margin: 0 0 10px 0;
 }
 
 /* ----- SINGLE PRODUCTS PAGE MOBILE ----- */

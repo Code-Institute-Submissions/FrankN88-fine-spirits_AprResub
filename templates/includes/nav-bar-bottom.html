@@ -1,9 +1,17 @@
 <div class="nav-bar-bottom">
     
     <div class="nav-menu">
-        <a href="{% url 'products'%}">All products</a>
         <span class="sub-menu">
-            <a href="#">From the grapes</a>
+            <a href="{% url 'products'%}">All products</a>
+            <div>
+                <a href="{% url 'products' %}?sort=price&direction=asc">Sort by price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc">Sort by rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc">Sort by category</a>
+            </div>
+        </span>
+
+        <span class="sub-menu">
+            <a>From the grapes <i class="fas fa-angle-down"></i></a>
             <div>
                 <a href="{% url 'products' %}?category=grappa">Grappa</a>
                 <a href="{% url 'products' %}?category=gin">Gin</a>
@@ -15,7 +23,7 @@
         </span>
 
         <span class="sub-menu">
-            <a href="#">Other spirits</a>
+            <a>Other spirits <i class="fas fa-angle-down"></i></a>
                 <div>
                 <a href="{% url 'products' %}?category=whisky-bourbon">Whisky & Bourbon</a>
                 <a href="{% url 'products' %}?category=cognac-armagnac">Cognac & Armagnac</a>
