@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <h2 class="mt-3 text-center">Shopping bag</h2>
+    <hr>
+    {% if bag_items %}
+        <div class="table-responsive rounded"></div>
+    {% else %}
+        Your bag is empty.
+        <hr>
+        <a href="{% url 'products' %}" class="btn btn-outline-dark mr-2"><i class="fas fa-angle-left mr-2"></i>Keep shopping</a>
+    {% endif %}
+{% endblock %}

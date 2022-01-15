@@ -67,6 +67,7 @@ header .sub-menu div{
     border: 1px solid #ccc;
     border-top: 0;
     min-width: 220px;
+    z-index: 2;
 }
 
 header .sub-menu div a{
