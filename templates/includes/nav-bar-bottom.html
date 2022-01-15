@@ -1,10 +1,27 @@
 <div class="nav-bar-bottom">
     
     <div class="nav-menu">
-        <a href="{% url 'products'%}">Products</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
+        <a href="{% url 'products'%}">All products</a>
+        <span class="sub-menu">
+            <a href="#">From the grapes</a>
+            <div>
+                <a href="{% url 'products' %}?category=grappa">Grappa</a>
+                <a href="{% url 'products' %}?category=gin">Gin</a>
+                <a href="{% url 'products' %}?category=tequila-mezcal">Tequila & Mezcal</a>
+                <a href="{% url 'products' %}?category=vodka">Vodka</a>
+                <a href="{% url 'products' %}?category=rum">Rum</a>
+                <a href="{% url 'products' %}?category=digestif">Digestif</a>
+            </div>
+        </span>
+
+        <span class="sub-menu">
+            <a href="#">Other spirits</a>
+                <div>
+                <a href="{% url 'products' %}?category=whisky-bourbon">Whisky & Bourbon</a>
+                <a href="{% url 'products' %}?category=cognac-armagnac">Cognac & Armagnac</a>
+            </div>
+        </span>
+
     </div>
 
     <form class="nav-menu-search-container" method="GET" action="{% url 'products' %}">

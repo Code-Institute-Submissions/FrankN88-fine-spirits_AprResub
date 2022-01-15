@@ -54,6 +54,33 @@ header .nav-bar-bottom.menu-open{
     display: flex;
 }
 
+header .sub-menu{
+    position: relative;
+}
+
+header .sub-menu div{
+    left: 10px;
+    top: 41px;
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: 0;
+    min-width: 220px;
+}
+
+header .sub-menu div a{
+    display: block;
+    padding: 10px;
+}
+
+header .sub-menu div a:hover{
+    background: #eee;
+}
+
+header .sub-menu:hover div{
+    display: block;
+}
 
 /* ----- MOBILE HEADER ----- */
 @media screen and (max-width: 764px) {
@@ -87,6 +114,19 @@ header .nav-bar-bottom.menu-open{
     header .nav-menu-search-container{
         margin: 5px 0;
         width: 100%;
+    }
+
+    header .sub-menu div{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+    
+    header .sub-menu div a{
+        padding-left: 30px;
+        padding-right: 0px;
     }
 }
 
