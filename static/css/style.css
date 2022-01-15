@@ -325,6 +325,8 @@ header .sub-menu:hover div{
     .bag_list  .bag_row_image img{
         width: 200px;
         height: auto;
+        max-width: 200px;
+        max-height: 200px;
         display: block;
         margin: 10px auto;
     }
