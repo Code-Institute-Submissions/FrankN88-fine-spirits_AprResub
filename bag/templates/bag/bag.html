@@ -3,12 +3,72 @@
 
 {% block content %}
     <h2 class="mt-3 text-center">Shopping bag</h2>
-    <hr>
+
     {% if bag_items %}
-        <div class="table-responsive rounded"></div>
+
+        <div class="bag_list">
+            <div class="bag_row_title">
+                    <div class="bag_row_image"></div>
+                    <div class="bag_row_name">Name</div>
+                    <div class="bag_row_qty">Q.ty</div>
+                    <div class="bag_row_price">Price</div>
+                    <div class="bag_row_price">Subtotal</div>
+            </div>
+            
+            <div class="bag_row_container">
+            {% for item in bag_items %}
+                <div class="bag_row">
+                    <div class="bag_row_image"><img src="{{item.product.image.url }}"></div>
+                    <div class="bag_row_name">{{item.product.name}}</div>
+                    <div class="bag_row_qty"><span>Quantity:</span>{{item.quantity}}</div>
+                    <div class="bag_row_price"><span>Price:</span>${{item.product.price}}</div>
+                    <div class="bag_row_price"><span>Sub total:</span>${{item.product.price}}</div>
+                </div>
+            {% endfor %}
+            </div>
+
+            <div class="bag_row_sommary">
+                <div class="bag_row">
+                    <div class="bag_row_name">Bag total:</div>
+                    <div class="bag_row_price"><strong>${{ total|floatformat:2 }}</strong></div>
+                </div>
+            
+                <div class="bag_row">
+                    <div class="bag_row_name">Delivery:</div>
+                    <div class="bag_row_price"><strong>${{ delivery|floatformat:2 }}</strong></div>
+                </div>
+
+                <div class="bag_row">
+                    <div class="bag_row_name">GRAND TOTAL:</div>
+                    <div class="bag_row_price"><strong>${{ grand_total|floatformat:2 }}</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bag_buttons">
+            <div>
+                <a href="{% url 'products' %}" class="btn btn-outline-dark">
+                    <i class="fas fa-angle-left mr-2"></i>
+                    Keep shopping
+                </a>
+            </div>
+            <div class="ml-auto">
+                <a href="" class="btn btn-dark">
+                    <i class="fas fa-lock mr-2"></i>
+                    Secure Checkout
+                </a>
+            </div>
+        </div>
+
     {% else %}
         Your bag is empty.
-        <hr>
-        <a href="{% url 'products' %}" class="btn btn-outline-dark mr-2"><i class="fas fa-angle-left mr-2"></i>Keep shopping</a>
+
+        <div class="bag_buttons">
+            <div>
+                <a href="{% url 'products' %}" class="btn btn-outline-dark">
+                    <i class="fas fa-angle-left mr-2"></i>Keep shopping
+                </a>
+            </div>
+        </div>
     {% endif %}
 {% endblock %}
