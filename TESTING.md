@@ -274,7 +274,7 @@ app.py | 0 errors | [Results](xx)
 
 ### Browser Validation
 - I have used [Lambda Test](https://www.lambdatest.com/) for cross-browser testing among the major browsers. 
-- [Click here to check browser testing](docs/testing/browser_testing)
+- [Click here to check browser testing](xxx).
 
 - **Microsoft Edge**: Website and user stories work as expected. 
 - **Google Chrome**: Website and user stories work as expected. 
@@ -284,7 +284,7 @@ app.py | 0 errors | [Results](xx)
 <br>
 
 ### Lighthouse Auditing
-- I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) to test the performance, seo, best practices and accessability of the site
+- I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) to test the performance, seo, best practices and accessability of the site.
 
 Page | Test Detail/Screenshot
 ------------ | -------------
@@ -308,7 +308,7 @@ registration.html | [Results](xx)
 Bug no. | Bug description |  Bug fix |
 ------------ | ------------- | ------------- | 
 1 | The biggest trouble i had was trying to work out why the app (successfully deployed) on Heroku would not run| After several days of consulting the specific documentation i was suggested to go and check the settings. I neglected to add:  <code>PORT 5000</code>  and  <code>IP 0.0.0.0</code>.
-2 | Semicolons left in the app.py by mistake | They have been promptly removed as they were giving error warnings.
+2 | Removing the insecure default Django key | After doing so i kept having issue running the server locally. Tutur support pointed me in the right direction regarding a set up mistake.
 4 | External links would not open in another tab | Problem solved by adding <code>target="_blank"</code> attribute to the anchor tags.
 10 | app.py code issues| A fair amount of time has been spent at the end of the project to make the PY code fully PEP8 compliant.
 
@@ -374,12 +374,16 @@ Bug no. | Bug description |  Bug fix |
 ### Security Features Considered
 
 #### General
-- Use of <code>.gitignore</code> to hide all secret keys.
-- Only the default DJANGO insecure key has been pushed to github. Later on, after delpyingonto heroku, a new secure key has been generated, inserted into the env.py file which has been as well secured from pushing thanks to the .gitignore file.
 - Hypertext Transfer Protocol Secure (HTTPS) for the Heroku App.
+- Use of <code>.gitignore</code> to hide all secret keys.
+- Only the default DJANGO insecure key has been initially pushed to Github. Later on, after delploying onto heroku, a new secure key has been generated, inserted into the env.py file which has been as well secured from pushing thanks to the .gitignore file.
+The reasons why the unsafe default django key has been initially pushed onto the repository are:
+   - Following the Boutique-Ado tutorials the key gets initially committed and then changed later towards the end of the project.
+   - I was experiencing issues in removing the key initially and running the server locally. Therefore I proceeded with the project and I have asked for help from the tutors later.
+   - Being insecure by default it had to be changed regardless.
 #### App
-- Only the <strong>ADMIN</strong> has some privileges, such as:
-  - Add/Edit/Remove Questions.
+- Only the <strong>Website owner/Admin</strong> has some privileges, such as:
+  - Add/Edit/Remove products.
   - Delete users.
   - Change privileges to the registered users.
 
