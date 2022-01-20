@@ -593,7 +593,7 @@ To set up Stripe, proceed as follows:
 2. Click on the Developers section of your account once logged in.
 3. Under Developers, click on the API keys section.
 
-![API keys](image)
+![API keys](readme_files/api/api_key.png)
 
 4. Note the values for the publishable and secret keys
 5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
@@ -604,7 +604,7 @@ To set up Stripe, proceed as follows:
 7. Create a webhook with the url of your website <url>/checkout/wh/, for example: https://dashboard.heroku.com/apps/fine-spirits/checkout/wh/
 8. Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
 
-![Webhook](image)
+![Webhook](readme_files/api/wh.png)
 
 9. Note the key created for this webhook
 10. In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values
