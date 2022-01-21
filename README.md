@@ -703,6 +703,10 @@ To set up AWS S3 Bucket, proceed as follows:
 ![AWS Settings](readme_files/aws/aws_img5_settings.png)
 24. These settings set up a cache policy, set the bucket name, and the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY that you set in your aws account.
 25. The configuration also requires the media/static folders that must be setup in the AWS S3 bucket to store the media and static files.
+26. AWS S3 Stored images.
+![AWS Bucket Policy](readme_files/aws/aws_images.png)
+27. AWS S3 Stored static files.
+![AWS Bucket Policy](readme_files/aws/aws_objects.png)
 
 ### Github
 
