@@ -248,9 +248,23 @@ Bag |&#9989;        |&#9989;          |&#9989; |
 Checkout |&#9989;        |&#9989;          |&#9989; |
 Checkout success |&#9989;        |&#9989;          |&#9989; |
 
-### Admin Feature
+<br>
 
-xxx add images form django admin
+### Admin Feature
+There are a number of admin views that have been configured at https://fine-spirits.herokuapp.com/admin; They give excellent CRUD operations to the data in the Postgres database as well as search and filter options. They are as follows:
+- Categories
+![DB Data Structure](readme_files/admin/admin_categories.png)
+
+- Products
+![DB Data Structure](readme_files/admin/admin_products.png)
+
+- Sites
+![DB Data Structure](readme_files/admin/admin_sites.png)
+
+- Users
+![DB Data Structure](readme_files/admin/admin_users.png)
+
+<br>
 
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
