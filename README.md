@@ -488,6 +488,108 @@ Each page of the website features a consistent responsive navigational system:
 
   <br>
 
+  <dt><a href="bag.html" target="_blank" alt="Bag">Bag</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The bag page consists of the following elements:
+     <ul>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong></strong> - x
+          </li>
+     </ul>
+         <details><summary>Bag</summary>
+         <img src="docs/wireframes/registration_devices.png">
+         </details>
+  </dd>
+
+  <br>
+
+  <dt><a href="products.html" target="_blank" alt="Products Page">Products Page</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The Products page consists of the following elements:
+     <ul>
+          <li><strong>Username</strong> - x
+          </li>
+          <li><strong>Password</strong> - x
+          </li>
+          <li><strong>Repeat Password</strong> - x
+          </li>
+          <li><strong>Create Account</strong> - x
+          </li>
+     </ul>
+         <details><summary>Products</summary>
+         <img src="docs/wireframes/registration_devices.png">
+         </details>
+  </dd>
+
+  <br>
+
+  <dt><a href="product_detail.html" target="_blank" alt="Product detail">Product Detail</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The Product Detail page consists of the following elements:
+     <ul>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+     </ul>
+         <details><summary>Product Detail</summary>
+         <img src="docs/wireframes/registration_devices.png">
+         </details>
+  </dd>
+
+  <br>
+
   <dt><a href="404.html" target="_blank" alt="404 Page">404 Page</a></dt>
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
