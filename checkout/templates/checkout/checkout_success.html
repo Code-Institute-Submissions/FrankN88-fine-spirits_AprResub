@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <h2 class="mt-3 text-center">Thank you!</h2>
+    <hr>
+
+    <div class="text-center">
+        Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.
+    </div>
+
+    <hr>
+
+    <div class="text-center mb-4">
+        <a href="{% url 'products' %}" class="btn btn-dark">Back to the shop</a>
+    </div>
+
+{% endblock %}
