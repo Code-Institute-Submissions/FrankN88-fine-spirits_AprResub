@@ -447,6 +447,14 @@ footer a:hover{
 .message-container{
     position: fixed;
     right: 0px;
-    z-index: 3;
+    z-index: 5;
     top: 70px;
+}
+
+.toast-product-image img{
+    max-height: 100%;
+    max-width: 100%;
+    height: 56px;
+    width: 56px;
+    object-fit: contain;
 }
