@@ -90,6 +90,7 @@ The website is designed to be responsive and accessible on all devices; being at
   15. Make the website as accessible and responsive as possible.
   16. Gain a better understanding of the audience by checking their feedback both via the social networks.
   17. Use reviews to increase customer satisfaction.
+  18. Find the best way to allow communication bewteen customer and the organization.
 
 ---
 
@@ -276,11 +277,15 @@ Each page of the website features a consistent responsive navigational system:
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
-    <li><strong>X</strong> - xxxxx.
+    <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
     </li>
-    <li><strong>X</strong> - xxxx.
+    <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
     </li>
-    <li><strong>X</strong> - xxxxx.
+    <li><strong>5</strong> - Be able to log in.
+    </li>
+    <li><strong>6</strong> - Be able to log out.
+    </li>
+    <li><strong>15</strong> - Make the website as accessible and responsive as possible.
     </li>
 </ul>
   <details><summary>Header</summary>
@@ -294,11 +299,11 @@ Each page of the website features a consistent responsive navigational system:
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
-    <li><strong>x</strong> - xxxx.
+    <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
     </li>
-    <li><strong>x</strong> - xxxxxx.
+    <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
     </li>
-    <li><strong>x</strong> - xxxxxx.
+    <li><strong>15</strong> - Make the website as accessible and responsive as possible.
     </li>
 </ul>
   <details><summary>Navbar on small devices</summary>
@@ -312,21 +317,15 @@ Each page of the website features a consistent responsive navigational system:
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
-    <li><strong>x</strong> - xxx
+    <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
     </li>
-    <li><strong>x</strong> - xxxx
+    <li><strong>4</strong> - Locate their social media links to see their followings on social media in order to be updated about their latest releases.
     </li>
-    <li><strong>x</strong> - xxxx.
+    <li><strong>15</strong> - Make the website as accessible and responsive as possible.
     </li>
-    <li><strong>x</strong> - xxx.
+    <li><strong>16</strong> - Gain a better understanding of the audience by checking their feedback both via the social networks.
     </li>
-    <li><strong>x</strong> - xxxx.
-    </li>
-    <li><strong>x</strong> - xxxx
-    </li>
-    <li><strong>x</strong> - xxxxxx
-    </li>
-    <li><strong>x</strong> - xxxxxx
+    <li><strong>17</strong> - Use reviews to increase customer satisfaction.
     </li>
 </ul>
   <details><summary>Footer</summary>
@@ -340,9 +339,9 @@ Each page of the website features a consistent responsive navigational system:
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
-    <li><strong>x</strong> - xxxx
+    <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
     </li>
-    <li><strong>x</strong> - xxxx
+    <li><strong>18</strong> - Find the best way to allow communication bewteen customer and the organization.
     </li>
 </ul>
   <details><summary>Mailto</summary>
@@ -356,9 +355,9 @@ Each page of the website features a consistent responsive navigational system:
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
-    <li><strong>x</strong> - xxx.
+    <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
     </li>
-    <li><strong>x</strong> - xxxx
+    <li><strong>15</strong> - Make the website as accessible and responsive as possible.
     </li>
 </ul>
   <details><summary>Btn back to the top</summary>
