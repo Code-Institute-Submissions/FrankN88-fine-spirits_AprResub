@@ -1,0 +1,14 @@
+.order-confirmation-wrapper{
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.order-confirmation-wrapper .row{
+    margin: 0px;
+    padding: 5px;
+}
+
+.order-confirmation-wrapper .row:nth-child(even){
+    background: #f8f8f8;
+}   
