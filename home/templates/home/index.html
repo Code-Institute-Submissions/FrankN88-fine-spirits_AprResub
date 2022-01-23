@@ -2,5 +2,25 @@
 {% load static %}
 
 {% block content %}
-	<h1>Test</h1>
+	
+	<div class="carousel slide" data-ride="carousel">
+	  <div class="carousel-inner">
+	    
+	    <!-- FIRST SLIDE -->
+	    <div class="carousel-item active">
+	    	<div class="carousel-details">
+	    		<div class="text-center">
+	    			<h2>Fine spirits</h2>
+	    			<h3>View our collection of spirits!</h3>
+	    			<a href="{% url 'products' %}" class="btn btn-dark btn-lg pl-5 pr-5" type="button">Visit shop</a>
+	    		</div>
+	    	</div>
+	    	<div class="carousel-overlay"></div>
+	      	<img src="{% static 'img/slide_home.jpg' %}" alt="Fine Spirits">
+	    </div>
+	    <!-- END FIRST SLIDE -->
+
+	  </div>
+	</div>
+
 {% endblock %}
