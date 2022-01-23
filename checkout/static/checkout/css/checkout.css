@@ -1,3 +1,4 @@
+/* ----- INPUT FORM CHECKOUT ----- */
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
@@ -27,6 +28,8 @@ select:invalid,
 select option[value=""] {
     color: #2B3131 !important;
 }
+
+/* ----- LOADING SPINNER ----- */
 #loading-overlay {
 	display: none;
 	position: fixed;
