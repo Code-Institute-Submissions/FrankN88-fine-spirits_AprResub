@@ -1,6 +1,7 @@
 /* ----- INPUT FORM CHECKOUT ----- */
 .StripeElement,
-.stripe-style-input {
+.stripe-style-input,
+select {
   box-sizing: border-box;
   height: 40px;
   padding: 10px 12px;
