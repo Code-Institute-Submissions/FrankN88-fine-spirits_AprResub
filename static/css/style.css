@@ -132,6 +132,28 @@ header .sub-menu:hover div{
 }
 
 
+/* ----- FOOTER ----- */
+footer{
+    margin-top: auto;
+}
+
+footer hr{
+    background: #fff;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer h5{
+    color: #c22222;
+}
+
+footer a:hover{
+    color: #c22222;
+}
+
+
 /* ----- HOME PAGE CAROUSEL ----- */
 .carousel,.carousel-inner{
     height: 600px;
