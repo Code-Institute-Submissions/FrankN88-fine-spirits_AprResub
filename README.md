@@ -72,7 +72,7 @@ The website is designed to be responsive and accessible on all devices; being at
   3. Purchase a bottle.
   4. Locate their social media links to see their followings on social media in order to be updated about their latest releases.
 
- #### As a registered user/frequent visitor I want to (on top of the anonymous user functionalities):
+ #### As a registered user/frequent visitor I want to (in addition to the anonymous user functionalities):
   5. Be able to log in.
   6. Be able to log out.
   7. Be able to delete my account.
@@ -205,7 +205,7 @@ Please check out the colour Colour palette.
 
 ### Database model features
 
-- The website is a data-centric one with html, javascript, css used with the bootstrap(version 5) framework as a frontend
+- The website is a data-centric one with html, javascript, css used with the bootstrap (version 5) framework as a frontend
 - The backend consists of Python built with the Django framework with a database of a Postgres for the deployed Heroku version (production).
 - [Postgres](https://www.postgresql.org/) is a powerful, open source object-relational database system.
 - [SQLLite](https://www.sqlite.org/index.html) database was used for local development. 

@@ -8,7 +8,7 @@
 
 -   #### Anonymous user/ First time visitor Goals:
 
-    1. xxx.
+    1. Be able to easily navigate throughout the site to visualise content and contacts.
 
         1. xx.
            <details><summary>Evidence</summary>
@@ -23,7 +23,7 @@
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
 
-    2. xxx.
+    2. Check out a specific bottle, visualise the relative details and price.
 
         1. xx. 
            <details><summary>Evidence</summary>
@@ -34,14 +34,14 @@
            <img src="docs/testing/validators/ux_stories/login_card.png">
            </details>
 
-    3. xxx.
+    3. Purchase a bottle.
 
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
            </details>
 
-    4. xx
+    4. Locate their social media links to see their followings on social media in order to be updated about their latest releases.
 
         1. xx
            <details><summary>Evidence</summary>
@@ -50,7 +50,7 @@
 
 -   #### Registered user/ returning/ frequent visitor goals
 
-    5. xx
+    5. Be able to log in.
 
         1. xx
            <details><summary>Evidence</summary>
@@ -61,32 +61,32 @@
            <img src="docs/testing/crud/image_crud_functions.png">
            </details>
 
-    6. xx
+    6. Be able to log out.
 
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/cards.png">
            </details>
 
-    7. xx
+    7. Be able to delete my account.
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/score_dates.png">
            </details>
 
-    8. xx
+    8. Be able to add personal details.
         1. xx
            <details><summary></summary>
            <img src="docs/testing/validators/ux_stories/score_dates.png">
            </details>
 
-    9. xx
+    9. Be able to update personal details.
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
     
-    10. xx
+    10. Be able view my order history.
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
@@ -95,21 +95,28 @@
 
 -   #### Admin Goals
 
-    11. xx
+    11. Be able to add products to the site.
 
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/delete_user.gif">
            </details>
 
-    12. xx
+    12. Be able to update product details.
 
         1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/edit_questions.png">
            </details>
 
-    13. xx
+    13. Be able to delete products from the site. 
+
+        1. xx
+           <details><summary>Evidence</summary>
+           <img src="docs/testing/validators/ux_stories/admin_power.png">
+           </details>
+
+    14. Have unique access to all features.
 
         1. xx
            <details><summary>Evidence</summary>
@@ -118,39 +125,25 @@
 
 -   #### Site Owner Goals, Testing
 
-     14. xx
+     15. Make the website as accessible and responsive as possible.
 
          1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/home.gif">
            </details>
 
-     15. xx
+     16. Gain a better understanding of the audience by checking their feedback both via the social networks.
 
          1. xx
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
 
-     16. xx
+     17. Use reviews to increase customer satisfaction.
 
          1. xx
            <details><summary>xxe</summary>
            <img src="docs/testing/validators/ux_stories/home.gif">
-           </details>
-
-     17. xx
-
-         1. xx
-           <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
-           </details>
-
-     18. xx
-
-         1. xx
-           <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
 
 ## User testing 
@@ -296,9 +289,9 @@ registration.html | [Results](xx)
 <br>
 
 ### AWS Testing
-- The image uploaded by the logged in user in the app has been successfully added in the S3 bucket.
+- The images have been successfully added in the S3 bucket.
    <details><summary>Evidence</summary>
-    <img src="docs/deployment/aws/aws_image_uploaded.png">
+    <img src="readme_files/aws/aws_images.png">
    </details>
 
 <br>
@@ -379,7 +372,7 @@ Bug no. | Bug description |  Bug fix |
 - Only the default DJANGO insecure key has been initially pushed to Github. Later on, after delploying onto heroku, a new secure key has been generated, inserted into the env.py file which has been as well secured from pushing thanks to the .gitignore file.
 The reasons why the unsafe default django key has been initially pushed onto the repository are:
    - Following the Boutique-Ado tutorials the key gets initially committed and then changed later towards the end of the project.
-   - I was experiencing issues in removing the key initially and running the server locally. Therefore I proceeded with the project and I have asked for help from the tutors later.
+   - I was experiencing issues in removing the key initially and running the server locally. Therefore I decided to proceed with the project and I have asked for help from the tutors later.
    - Being insecure by default it had to be changed regardless.
 #### App
 - Only the <strong>Website owner/Admin</strong> has some privileges, such as:
