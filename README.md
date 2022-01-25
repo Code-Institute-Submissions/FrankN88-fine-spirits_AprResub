@@ -90,7 +90,7 @@ The website is designed to be responsive and accessible on all devices; being at
   15. Make the website as accessible and responsive as possible.
   16. Gain a better understanding of the audience by checking their feedback both via the social networks.
   17. Use reviews to increase customer satisfaction.
-  18. Find the best way to allow communication bewteen customer and the organization.
+  18. Find the best way to allow communication bewteen customers and the organization.
 
 ---
 
@@ -341,7 +341,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
     <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
     </li>
-    <li><strong>18</strong> - Find the best way to allow communication bewteen customer and the organization.
+    <li><strong>18</strong> - Find the best way to allow communication bewteen customers and the organization.
     </li>
 </ul>
   <details><summary>Mailto</summary>
@@ -371,27 +371,17 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
         <li><strong>User stories covered by this feature:</strong>  
         </li>
-        <li><strong>x</strong> - x
+        <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
         </li>
-        <li><strong>x</strong> - x
+        <li><strong>4</strong> - Locate their social media links to see their followings on social media in order to be updated about their latest releases.
         </li>
-        <li><strong>x</strong> - x
+        <li><strong>15</strong> - Make the website as accessible and responsive as possible.
         </li>
-        <li><strong>x</strong> - x
+        <li><strong>16</strong> - Gain a better understanding of the audience bv checking their feedback both via the social networks
         </li>
-        <li><strong>x</strong> - x
+        <li><strong>17</strong> - Use reviews to increase customer satistaction.
         </li>
-        <li><strong>x</strong> - x
-        </li>
-        <li><strong>x</strong> - x
-        </li>
-        <li><strong>x</strong> - x
-        </li>
-        <li><strong>x</strong> - x
-        </li>
-        <li><strong>x</strong> - x
-        </li>
-        <li><strong>x</strong> - x
+        <li><strong>18</strong> - Fino the best wav to allow communication bewteen customers and the organization.
         </li>
      </ul>
 
@@ -413,27 +403,24 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>5</strong> - Be able to log in.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>6</strong> - Be able to log out.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>7</strong> - Be able to delete my account.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>11</strong> - Be able to add products to the site (if admin).
       </li>
-          <li><strong>x</strong> - x
-      </li>
-      </li>
-          <li><strong>x</strong> - x
+          <li><strong>12</strong> - Be able to update product details (if admin).
       </li>
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>13</strong> - Be able to delete products from the site (if admin).
       </li>
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>14</strong> - Have unique access to all features (if admin).
       </li>
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>15</strong> - Make the website as accessible and responsive as possible
       </li>
      </ul>
 
@@ -457,15 +444,15 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>7</strong> - Be able to delete my account.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>8</strong> - Be able to add personal details.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>9</strong> - Be able to update personal details.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>10</strong> - Be able view my order history.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>15</strong> - Make the website as accessible and responsive as possible
       </li>
      </ul>
 
@@ -491,16 +478,11 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+         <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>3</strong> - Purchase a bottle.
       </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
-      </li>
+          <li><strong>15</strong> - Make the website as accessible and responsive as possible
      </ul>
 
   <dd>The bag page consists of the following elements:
@@ -525,15 +507,11 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
       </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
+          <li><strong>15</strong> - Make the website as accessible and responsive as possible.
       </li>
      </ul>
 
@@ -559,15 +537,9 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
       </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
-      </li>
-          <li><strong>x</strong> - x
+          <li><strong>15</strong> - 15. Make the website as accessible and responsive as possible.
       </li>
      </ul>
 
@@ -593,9 +565,9 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
       </li>
-          <li><strong>x</strong> - x
+          <li><strong>15</strong> - Make the website as accessible and responsive as possible
       </li>
      </ul>
 
