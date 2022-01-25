@@ -301,16 +301,39 @@ registration.html | [Results](xx)
     <img src="readme_files/aws/aws_images.png">
    </details>
 
+- The static files have been successfully added in the S3 bucket.
+   <details><summary>Evidence</summary>
+    <img src="readme_files/aws/aws_objects.png">
+   </details>
+
+<br>
+
+### Stripe testing
+- Order completed in the form.
+   <details><summary>Evidence</summary>
+    <img src="readme_files/stripe/order_completed.png">
+   </details>
+
+- Event test successful.
+   <details><summary>Evidence</summary>
+    <img src="readme_files/stripe/event_test.png">
+   </details>
+
+- Payment intent as shown.
+   <details><summary>Evidence</summary>
+    <img src="readme_files/stripe/payment_intent.png">
+   </details>
+
 <br>
 
 ### Bugs found during the testing phase
 
 Bug no. | Bug description |  Bug fix |
 ------------ | ------------- | ------------- | 
-1 | The biggest trouble i had was trying to work out why the app (successfully deployed) on Heroku would not run| After several days of consulting the specific documentation i was suggested to go and check the settings. I neglected to add:  <code>PORT 5000</code>  and  <code>IP 0.0.0.0</code>.
-2 | Removing the insecure default Django key | After doing so i kept having issue running the server locally. Tutur support pointed me in the right direction regarding a set up mistake.
-4 | External links would not open in another tab | Problem solved by adding <code>target="_blank"</code> attribute to the anchor tags.
-10 | app.py code issues| A fair amount of time has been spent at the end of the project to make the PY code fully PEP8 compliant.
+1 | Removing the insecure default Django key | After doing so i kept having issues running the server locally. Tutor support pointed me in the right direction regarding a set up mistake.
+2 | Requirements.txt | Due to a gitpod upgrade it filled up automatically with many unecessary packages intalled. Besides that i had to install them again every time i started the workpsace. Tutors and Slack advices pointed me in the right direction to fix the issue.
+3 | A few external links would not open in another tab | Problem solved by adding <code>target="_blank"</code> attribute to the anchor tags.
+4 | Python code issues| A fair amount of time has been spent at the end of the project to make the PY code PEP8 compliant.
 
 <br>
 
