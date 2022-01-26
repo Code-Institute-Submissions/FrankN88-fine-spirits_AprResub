@@ -19,6 +19,14 @@
 
 		<div class="single_product_details">
 
+			{% if request.user.is_superuser %}
+	            <div>
+	                <a class="btn btn-dark btn-sm mr-1" href="{% url 'edit_product' product.id %}">Edit</a>
+	                <a class="btn btn-danger btn-sm" href="{% url 'delete_product' product.id %}">Delete</a>
+	            </div>
+	            <hr>
+	        {% endif %}
+
 			<div class="single_product_name">{{product.name}}</div>
 
 			{% if product.category %}
