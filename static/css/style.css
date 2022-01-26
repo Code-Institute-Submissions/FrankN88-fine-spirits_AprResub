@@ -256,8 +256,7 @@ footer a:hover{
 
 .products_list .product_image{
     margin-bottom: 30px;
-    max-height: 300px;
-    overflow: hidden;
+    height: 300px;
 }
 
 .products_list .product_image img{
@@ -450,6 +449,10 @@ footer a:hover{
     right: 0px;
     z-index: 5;
     top: 70px;
+}
+
+.message-container .toast{
+    width: 300px;
 }
 
 .toast-product-image img{
