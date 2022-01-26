@@ -458,3 +458,23 @@ footer a:hover{
     width: 56px;
     object-fit: contain;
 }
+
+/* ----- REGISTRATION PAGES ----- */
+.page-userlog{
+    border: 2px solid #000;
+    margin: 50px auto;
+    padding: 50px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.page-userlog input[type="text"],
+.page-userlog input[type="email"],
+.page-userlog input[type="password"]
+{
+    width: 100%;
+    border: 2px solid #000;
+    padding: 5px;
+    margin-bottom: 20px;
+}
