@@ -588,9 +588,14 @@ Each page of the website features a consistent responsive navigational system:
 
 ### Features left to implement
 
-- x
-- x
-- x
+- Improved searching and filtering on the products page.
+- The functionality to add and display multiple images on each product.
+- API like EmailJS to facilitate communication between customers and shop owner.
+- Downloading and implementing a Py currency package that would allow purchases in other currencies.
+- A FAQ page.
+- Login with social media accounts.
+- A live chat to improve the UX experience.
+- Implementing other payment systems like Paypal.
 
 ---
 

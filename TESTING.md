@@ -146,7 +146,7 @@
            <img src="docs/testing/validators/ux_stories/home.gif">
            </details>
 
-      18. Find the best way to allow communication bewteen customer and the organization.
+     18. Find the best way to allow communication bewteen customer and the organization.
 
          1. xx
            <details><summary>xxe</summary>
