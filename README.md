@@ -350,6 +350,24 @@ Each page of the website features a consistent responsive navigational system:
 
 <br>
 
+#### Search Button 
+- In the top right corner of every page, there is a **Search Button** . The customer can enter directly the name of the product he/she interested to purchase or the kind of spirit (e.g. Gin). This improves the UX experience.
+<ul>
+    <li><strong>User stories covered by this feature:</strong>  
+    </li>
+    <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
+    </li>
+    <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
+    </li>
+    <li><strong>15</strong> - Make the website as accessible and responsive as possible.
+    </li>
+</ul>
+  <details><summary>Search Button</summary>
+    <img src="docs/testing/validators/ux_stories/mailto.gif">
+  </details>
+
+<br>
+
 #### Back to the top button
 - **Back to the top button**  - This <strong>button</strong> :arrow_up: is present in the footer so that the user can comfortably click them to be redirected to the top of the page. This feature improves the quality of navigation, especially if using smartphones.
 <ul>

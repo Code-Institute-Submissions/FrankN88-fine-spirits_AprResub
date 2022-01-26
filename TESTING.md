@@ -186,6 +186,16 @@ Manual testing was conducted on the following pages in order to assess responsiv
     <img src="docs/testing/validators/ux_stories/mailto.gif">
   </details>
 
+- Clicking on the  `Back to the top` button will bring the user back to the top of the page.
+  <details><summary>Back to the top button</summary>
+    <img src="docs/testing/validators/ux_stories/mailto.gif">
+  </details>
+
+- Typing a specific product or type of spirit in the `Search box` will show exaclty what the user is looking for.
+  <details><summary>Search box</summary>
+    <img src="docs/testing/validators/ux_stories/mailto.gif">
+  </details>
+
 ### Home Page
 Manual testing was conducted on the following elements of the [Home Page](home.html):
 
@@ -212,6 +222,33 @@ Manual testing was conducted on the following elements of the [Registration Page
    <details><summary>Registration page</summary>
     <img src="docs/testing/validators/ux_stories/registration_responsiveness.gif">
   </details>
+
+### Bag
+Manual testing was conducted on the following elements of the [Bag Page](bag.html):
+
+ - All the elements are responsive (header, footer, text).
+ - The buttons in the Navbar turns into smaller buttons ordered in the same way.
+   <details><summary>404 Page</summary>
+    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+   </details>
+
+### Products page
+Manual testing was conducted on the following elements of the [404 Page](404.html):
+
+ - All the elements are responsive (header, footer, text).
+ - The buttons in the Navbar turns into smaller buttons ordered in the same way.
+   <details><summary>404 Page</summary>
+    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+   </details>
+
+### Product detail
+Manual testing was conducted on the following elements of the [404 Page](404.html):
+
+ - All the elements are responsive (header, footer, text).
+ - The buttons in the Navbar turns into smaller buttons ordered in the same way.
+   <details><summary>404 Page</summary>
+    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+   </details>
 
 ### 404 Page
 Manual testing was conducted on the following elements of the [404 Page](404.html):
