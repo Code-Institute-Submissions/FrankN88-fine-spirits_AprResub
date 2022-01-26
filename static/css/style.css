@@ -479,3 +479,27 @@ footer a:hover{
     padding: 5px;
     margin-bottom: 20px;
 }
+
+/* ----- PRODUCT PAGES ----- */
+
+.page-product{
+    border: 2px solid #000;
+    margin: 50px auto;
+    padding: 50px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.page-product input[type="text"],
+.page-product input[type="number"],
+.page-product input[type="url"],
+.page-product input[type="email"],
+.page-product input[type="password"],
+.page-product textarea,
+.page-product select
+{
+    width: 100%;
+    border: 2px solid #000;
+    padding: 5px;
+    margin-bottom: 20px;
+}
