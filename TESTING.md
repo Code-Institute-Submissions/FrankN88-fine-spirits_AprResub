@@ -10,40 +10,44 @@
 
     1. Be able to easily navigate throughout the site to visualise content and contacts.
 
-        1. xx.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable sticky navigation bar to go to the page(s) of the desired product.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/navbar.png">
            </details>
-        2. xx.
+        2. The button "Visit the shop" will take the user to the page with all products. Otherwise the user who knows exacly what to buy can put the name in the search box (e.g. "Dingle Gin") or select the spirit family (e.g "frome the vines --> Grappa --> Nardini)
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/cards.png">
            </details>
-        3. xxx. 
+        3. At the bottom of the page there is a footer with the links to the social networks and contacts. 
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
 
     2. Check out a specific bottle, visualise the relative details and price.
 
-        1. xx. 
+        1. The user, when selecting a specific bottle, will have the chance to check all of the details of the product. 
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/play_card.png">
-           </details>
-        2. xx.
-           <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/login_card.png">
            </details>
 
     3. Purchase a bottle.
 
-        1. xx
+        1. After selecting the bottle and the desired quantity, the user will add it to the bag and proceed to check out.
+           <details><summary>Evidence</summary>
+           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           </details>
+        2. The user will add his/her details.
+           <details><summary>Evidence</summary>
+           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           </details>
+        3. The user will complete the order.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
            </details>
 
     4. Locate their social media links to see their followings on social media in order to be updated about their latest releases.
 
-        1. xx
+        1. At the bottom of the page there is a footer with the links to the social networks and email.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/hover_footer_links.gif">
            </details>
@@ -52,42 +56,42 @@
 
     5. Be able to log in.
 
-        1. xx
+        1. At the top right corner of the page the user will be able to log in by clicking on the first icon.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/score_dates.png">
-           </details>
-        2. xx
-           <details><summary>Evidence</summary>
-           <img src="docs/testing/crud/image_crud_functions.png">
            </details>
 
     6. Be able to log out.
 
-        1. xx
+        1. Once in, the user will easily be able to log out.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/cards.png">
            </details>
 
     7. Be able to delete my account.
-        1. xx
+
+        1. The user will be able to delete the account by clicking on the specific button.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/score_dates.png">
            </details>
 
     8. Be able to add personal details.
-        1. xx
+
+        1. The user will add his/her personal details when registering to the page.
            <details><summary></summary>
            <img src="docs/testing/validators/ux_stories/score_dates.png">
            </details>
 
     9. Be able to update personal details.
-        1. xx
+
+        1. The user will be able to edit his/her personal details if necessary.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
     
     10. Be able view my order history.
-        1. xx
+
+        1. Only the logged in user will be able to check the history of his/her orders.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
@@ -95,30 +99,30 @@
 
 -   #### Admin Goals
 
-    11. Be able to add products to the site.
+    11. Be able to add products to the site (CRUD funcionality).
 
-        1. xx
+        1. Only the admin can add products to the site.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/delete_user.gif">
            </details>
 
-    12. Be able to update product details.
+    12. Be able to update product details (CRUD funcionality).
 
-        1. xx
+        1. Only the admin can edit products to the site.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/edit_questions.png">
            </details>
 
-    13. Be able to delete products from the site. 
+    13. Be able to delete products from the site (CRUD funcionality). 
 
-        1. xx
+        1. Only the admin can delete products to the site.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/admin_power.png">
            </details>
 
     14. Have unique access to all features.
 
-        1. xx
+        1. As Shown:
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/admin_power.png">
            </details>
@@ -127,28 +131,28 @@
 
      15. Make the website as accessible and responsive as possible.
 
-         1. xx
+         1. The website is responsive on any device and is designed according to the most important UX principles.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/home.gif">
            </details>
 
      16. Gain a better understanding of the audience by checking their feedback both via the social networks.
 
-         1. xx
+         1. Access (via na external link) to the social netorks in present in the footer of each page.
            <details><summary>Evidence</summary>
            <img src="docs/testing/validators/ux_stories/footer.png">
            </details>
 
      17. Use reviews to increase customer satisfaction.
 
-         1. xx
+         1. The social networks and email can help with feedback.
            <details><summary>xxe</summary>
            <img src="docs/testing/validators/ux_stories/home.gif">
            </details>
 
      18. Find the best way to allow communication bewteen customer and the organization.
 
-         1. xx
+         1. The social networks and email will improve communication between the user and the organization.
            <details><summary>xxe</summary>
            <img src="docs/testing/validators/ux_stories/home.gif">
            </details>
