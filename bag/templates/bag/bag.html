@@ -23,11 +23,13 @@
                 {% csrf_token %}
                     <div class="bag_row">
                         <div class="bag_row_image">
-                        {% if item.product.image %}
-                            <img src="{{item.product.image.url }}">
-                        {% else %}
-                            <img src="{{ MEDIA_URL }}noimage.png">
-                        {% endif %}
+                            <a href="{% url 'product_detail' item.item_id %}">
+                                {% if item.product.image %}
+                                    <img src="{{item.product.image.url }}">
+                                {% else %}
+                                    <img src="{{ MEDIA_URL }}noimage.png">
+                                {% endif %}
+                            </a>
                         </div>
                         <div class="bag_row_name">
                             {{item.product.name}}
