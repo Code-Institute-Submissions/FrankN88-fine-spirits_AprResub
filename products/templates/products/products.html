@@ -52,7 +52,7 @@
 			<div class="product_price">$ {{product.price}}</div>
 
 			{% if product.rating %}
-				<div class="product_rate"><i class="fas fa-star-a"></i>{{product.rating}}/5</div>
+				<div class="product_rate"><span class="badge badge-warning">{{product.rating}}/5 <i class="fas fa-star"></i></span></div>
 			{% else %}
 				<div class="product_rate">No rating</div>
 			{% endif %}

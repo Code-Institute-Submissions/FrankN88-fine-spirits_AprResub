@@ -39,7 +39,7 @@
                         </div>
                         <div class="bag_row_qty">
                             <span>Quantity:</span>
-                            <input name="quantity" min="1" max="99" class="form-control" type="number" value="{{item.quantity}}">
+                            <input name="quantity" min="1" max="{{max_quantity}}" class="form-control" type="number" value="{{item.quantity}}">
                         </div>
 
                         <div class="bag_row_price"><span>Price:</span>${{item.product.price}}</div>

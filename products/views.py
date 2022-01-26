@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
@@ -68,6 +69,7 @@ def product_detail(request, product_id):
 
 	context = {
 		'product': product,
+		'max_quantity': settings.MAX_QUANTITY_FOR_PRODUCT,
 	}
 
 	return render(request, "products/product_detail.html", context) 
