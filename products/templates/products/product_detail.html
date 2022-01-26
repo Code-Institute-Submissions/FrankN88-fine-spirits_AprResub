@@ -19,6 +19,14 @@
 
 		<div class="single_product_details">
 
+			{% if request.user.is_superuser %}
+	            <div>
+	                <a class="btn btn-dark btn-sm mr-1" href="{% url 'edit_product' product.id %}">Edit</a>
+	                <a class="btn btn-danger btn-sm" href="{% url 'delete_product' product.id %}">Delete</a>
+	            </div>
+	            <hr>
+	        {% endif %}
+
 			<div class="single_product_name">{{product.name}}</div>
 
 			{% if product.category %}
@@ -40,7 +48,7 @@
 					<div class="input-group-prepend">
 						<button class="btn btn-dark quantity_minus" type="button"><i class="fas fa-minus"></i></button>
 					</div>
-					<input type="number" min="1" max="99" name="quantity" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}" class="form-control text-center" value="1">
+					<input type="number" min="1" max="{{max_quantity}}" name="quantity" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}" class="form-control text-center" value="1">
 					<div class="input-group-append">
 						<button class="btn btn-dark quantity_plus" type="button"><i class="fas fa-plus"></i></button>
 					</div>
@@ -71,7 +79,7 @@
 
 			$(".quantity_plus").click(function(){
 				var quantity = parseInt($("[name='quantity']").val())+1;
-				if(quantity>99) return;
+				if(quantity>{{max_quantity}}) return;
 				$("[name='quantity']").val(quantity);
 			});
 		});

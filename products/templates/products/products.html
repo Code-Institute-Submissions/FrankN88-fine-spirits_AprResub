@@ -36,21 +36,23 @@
 
 	{% for product in products %}
 
-		<a class="product" href="{{product.id}}">
+		<div class="product">
 
-			<div class="product_image">
-			{% if product.image %}
-				<img src="{{ MEDIA_URL }}{{product.image}}" alt="{{product.name}}">
-			{% else %}			
-				<img src="{{ MEDIA_URL }}noimage.png" alt="{{product.name}}">
-			{% endif %}
-			</div>
+			<a href="{{product.id}}">
+				<div class="product_image">
+				{% if product.image %}
+					<img src="{{ MEDIA_URL }}{{product.image}}" alt="{{product.name}}">
+				{% else %}			
+					<img src="{{ MEDIA_URL }}noimage.png" alt="{{product.name}}">
+				{% endif %}
+				</div>
+			</a>
 
 			<div class="product_name">{{product.name}}</div>
 			<div class="product_price">$ {{product.price}}</div>
 
 			{% if product.rating %}
-				<div class="product_rate"><i class="fas fa-star-a"></i>{{product.rating}}/5</div>
+				<div class="product_rate"><span class="badge badge-warning">{{product.rating}}/5 <i class="fas fa-star"></i></span></div>
 			{% else %}
 				<div class="product_rate">No rating</div>
 			{% endif %}
@@ -61,7 +63,15 @@
 				</div>
 			{% endif %}
 
-		</a>
+			{% if request.user.is_superuser %}
+                <hr>
+                <div>
+	                <a class="btn btn-dark btn-sm mr-1" href="{% url 'edit_product' product.id %}">Edit</a>
+	                <a class="btn btn-danger btn-sm" href="{% url 'delete_product' product.id %}">Delete</a>
+	            </div>
+            {% endif %}
+
+		</div>
 
 	{% endfor %}
 
