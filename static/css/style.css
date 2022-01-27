@@ -87,7 +87,7 @@ header .sub-menu:hover div{
 }
 
 /* ----- MOBILE HEADER ----- */
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 960px) {
     header .nav-bar button{ 
         display: inline-block;
     }
@@ -352,7 +352,7 @@ footer a:hover{
 }
 
 /* ----- SINGLE PRODUCTS PAGE MOBILE ----- */
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 960px) {
     .single_product{
         grid-template-columns: 1fr;
     }
@@ -427,7 +427,7 @@ footer a:hover{
 }
 
 /* ----- BAG LIST MOBILE ----- */
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 960px) {
     .bag_list .bag_row_title{
         display: none;
     }
