@@ -282,7 +282,16 @@ Page | Result | Test Detail/Screenshot
 home.html | Passed, No errors found | [Results](xx)
 login.html | Passed, No errors found | [Results](xx)
 registration.html | Passed, No errors found | [Results](xx)
+bag.html | Passed, No errors found | [Results](xx)
+add_product.html | Passed, No errors found | [Results](xx)
+edit_product.html | Passed, No errors found | [Results](xx)
+products.html | Passed, No errors found | [Results](xx)
+product_detail.html | Passed, No errors found | [Results](xx)
+profile.html | Passed, No errors found | [Results](xx)
+400.html | Passed, No errors found | [Results](xx)
+403.html | Passed, No errors found | [Results](xx)
 404.html | Passed, No errors found | [Results](xx)
+500.html | Passed, No errors found | [Results](xx)
 
 <br>
 
@@ -292,6 +301,7 @@ registration.html | Passed, No errors found | [Results](xx)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 style.css | Passed, No errors found | [Results](xx)
+profile.css | Passed, No errors found | [Results](xx)
 
 <br>
 
@@ -300,17 +310,8 @@ style.css | Passed, No errors found | [Results](xx)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
+countryfield.js | 0 errors | [Results](xx)
 script.js | 0 errors | [Results](xx)
-admin.js | 0 errors | [Results](xx)
-
-<br>
-
-### PYlint
-- [PYlint](https://www.pylint.org/) was used to validate the `PYTHON` code used.
-
-Page | Result | Test Detail/Screenshot
------------- | ------------- | -------------
-app.py | 0 errors | [Results](xx)
 
 <br>
 
@@ -336,12 +337,19 @@ app.py | 0 errors | [Results](xx)
 ### Lighthouse Auditing
 - I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) to test the performance, seo, best practices and accessability of the site.
 
-Page | Test Detail/Screenshot
------------- | -------------
 home.html | [Results](xx)
 login.html | [Results](xx)
 registration.html | [Results](xx)
+bag.html | Results](xx)
+add_product.html | [Results](xx)
+edit_product.html | [Results](xx)
+products.html | [Results](xx)
+product_detail.html | [Results](xx)
+profile.html | Results](xx)
+400.html | [Results](xx)
+403.html | [Results](xx)
 404.html | [Results](xx)
+500.html | [Results](xx)
 
 <br>
 
