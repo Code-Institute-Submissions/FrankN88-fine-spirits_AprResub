@@ -337,15 +337,17 @@ app.py | 0 errors | [Results](xx)
 ### Lighthouse Auditing
 - I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse) to test the performance, seo, best practices and accessability of the site.
 
+Page | Test Detail/Screenshot
+------------ | -------------
 home.html | [Results](xx)
 login.html | [Results](xx)
 registration.html | [Results](xx)
-bag.html | Results](xx)
+bag.html | [Results](xx)
 add_product.html | [Results](xx)
 edit_product.html | [Results](xx)
 products.html | [Results](xx)
 product_detail.html | [Results](xx)
-profile.html | Results](xx)
+profile.html | [Results](xx)
 400.html | [Results](xx)
 403.html | [Results](xx)
 404.html | [Results](xx)
