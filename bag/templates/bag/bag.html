@@ -42,8 +42,8 @@
                             <input name="quantity" min="1" max="{{max_quantity}}" class="form-control" type="number" value="{{item.quantity}}">
                         </div>
 
-                        <div class="bag_row_price"><span>Price:</span>${{item.product.price}}</div>
-                        <div class="bag_row_price"><span>Sub total:</span>${{ item.product.price | calc_subtotal:item.quantity }}</div>
+                        <div class="bag_row_price"><span>Price:</span>€{{item.product.price}}</div>
+                        <div class="bag_row_price"><span>Sub total:</span>€{{ item.product.price | calc_subtotal:item.quantity }}</div>
                     </div>
                 </form>
             {% endfor %}
@@ -52,17 +52,17 @@
             <div class="bag_row_sommary">
                 <div class="bag_row">
                     <div class="bag_row_name">Bag total:</div>
-                    <div class="bag_row_price"><strong>${{ total|floatformat:2 }}</strong></div>
+                    <div class="bag_row_price"><strong>€{{ total|floatformat:2 }}</strong></div>
                 </div>
             
                 <div class="bag_row">
                     <div class="bag_row_name">Delivery:</div>
-                    <div class="bag_row_price"><strong>${{ delivery|floatformat:2 }}</strong></div>
+                    <div class="bag_row_price"><strong>€{{ delivery|floatformat:2 }}</strong></div>
                 </div>
 
                 <div class="bag_row">
                     <div class="bag_row_name">GRAND TOTAL:</div>
-                    <div class="bag_row_price"><strong>${{ grand_total|floatformat:2 }}</strong></div>
+                    <div class="bag_row_price"><strong>€{{ grand_total|floatformat:2 }}</strong></div>
                 </div>
             </div>
         </div>
