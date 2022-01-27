@@ -201,7 +201,7 @@ Manual testing was conducted on the following pages in order to assess responsiv
   </details>
 
 ### Home Page
-Manual testing was conducted on the following elements of the [Home Page](home.html):
+Manual testing was conducted on the following elements of the [Home Page](index.html):
 
  - All the elements are responsive (header, footer, cards).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
@@ -232,25 +232,34 @@ Manual testing was conducted on the following elements of the [Bag Page](bag.htm
 
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
-   <details><summary>404 Page</summary>
+   <details><summary>Bag Page</summary>
     <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
    </details>
 
 ### Products page
-Manual testing was conducted on the following elements of the [404 Page](404.html):
+Manual testing was conducted on the following elements of the [Products Page](products.html):
 
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
-   <details><summary>404 Page</summary>
+   <details><summary>Products Page</summary>
     <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
    </details>
 
 ### Product detail
-Manual testing was conducted on the following elements of the [404 Page](404.html):
+Manual testing was conducted on the following elements of the [Product Detail](product_detail.html):
 
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
-   <details><summary>404 Page</summary>
+   <details><summary>Product detail Page</summary>
+    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+   </details>
+
+### Profile
+Manual testing was conducted on the following elements of the [Profile Page](profile.html):
+
+ - All the elements are responsive (header, footer, text).
+ - The buttons in the Navbar turns into smaller buttons ordered in the same way.
+   <details><summary>Profile Page</summary>
     <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
    </details>
 

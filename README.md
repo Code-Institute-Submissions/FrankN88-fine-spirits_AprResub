@@ -231,7 +231,6 @@ The navigation buttons update depending on whether a user is logged in or not, a
 Home     |&#9989;        |&#9989;          |&#9989; |
 Products           |&#9989;        |&#9989;          |&#9989; |
 Product Detail           |&#9989;        |&#9989;          |&#9989; |
-Products Detail (Review)          |&#10060;        |&#9989;          |&#9989; |
 Product Management(Add Product)     |&#10060;       |&#10060;         |&#9989; |
 Product Management(Edit Product)     |&#10060;       |&#10060;         |&#9989; |
 Product Management(Delete Product)     |&#10060;       |&#10060;         |&#9989; |
@@ -242,9 +241,6 @@ Order History         |&#10060;       |&#9989;          |&#9989; |
 Log out               |&#10060;       |&#9989;          |&#9989; |
 Register               |&#9989;        |&#10060;         |&#10060; |
 Log in               |&#9989;        |&#10060;         |&#10060; |
-News                |&#9989;        |&#9989;         |&#9989; |
-News Item             |&#9989;        |&#9989;        |&#9989; |
-News Item (comment) |&#10060;        |&#9989;          |&#9989; |
 Bag |&#9989;        |&#9989;          |&#9989; |
 Checkout |&#9989;        |&#9989;          |&#9989; |
 Checkout success |&#9989;        |&#9989;          |&#9989; |
@@ -253,17 +249,24 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 
 ### Admin Feature
 There are a number of admin views that have been configured at https://fine-spirits.herokuapp.com/admin; They give excellent CRUD operations to the data in the Postgres database as well as search and filter options. They are as follows:
-- Categories
-![DB Data Structure](readme_files/admin/admin_categories.png)
 
-- Products
-![DB Data Structure](readme_files/admin/admin_products.png)
-
-- Sites
-![DB Data Structure](readme_files/admin/admin_sites.png)
+- Email addresses
+![Email addresses](add_image)
 
 - Users
-![DB Data Structure](readme_files/admin/admin_users.png)
+![Users](readme_files/admin/admin_users.png)
+
+- Orders
+![Orders](add_image)
+
+- Categories
+![Categories](readme_files/admin/admin_categories.png)
+
+- Products
+![Products](readme_files/admin/admin_products.png)
+
+- Sites
+![Sites](readme_files/admin/admin_sites.png)
 
 <br>
 
@@ -385,7 +388,7 @@ Each page of the website features a consistent responsive navigational system:
 <br>
 
 <dl>
-  <dt><a href="home.html" target="_blank" alt="Quiz game Home Page">Home Page</a></dt>
+  <dt><a href="index.html" target="_blank" alt="Quiz game Home Page">Home Page</a></dt>
      <ul>
         <li><strong>User stories covered by this feature:</strong>  
         </li>
