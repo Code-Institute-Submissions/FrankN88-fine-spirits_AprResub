@@ -46,6 +46,7 @@ header .nav-menu-search-container{
 header .nav-bar-bottom a{
     padding: 40px 20px;
     text-decoration: none;
+    color: #c22222;
 }
 
 header .nav-menu-account{
@@ -120,7 +121,7 @@ header .sub-menu:hover div{
     }
 
     header .sub-menu div{
-        display: block;
+        display: none;
         position: relative;
         top: 0;
         left: 0;
@@ -131,6 +132,15 @@ header .sub-menu:hover div{
         padding-left: 30px;
         padding-right: 0px;
     }
+}
+
+/* ----- BANNER BAR ----- */
+.banner-bar{
+    background: #861A1A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
 }
 
 
@@ -170,11 +180,13 @@ footer a:hover{
     width: 40px;
     line-height: 36px;
     text-align: center;
+    z-index: 20;
 }
 
 /* ----- HOME PAGE CAROUSEL ----- */
 .carousel,.carousel-inner{
     height: 600px;
+    margin: 20px 0;
 }
 
 .carousel-item{
@@ -224,6 +236,10 @@ footer a:hover{
     font-size: 30px;
     margin-bottom: 30px;
     color: #ccc;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    z-index: 10;
 }
 
 /* ----- PRODUCTS PAGE ----- */
