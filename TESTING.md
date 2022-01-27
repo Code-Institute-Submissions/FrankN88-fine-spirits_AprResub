@@ -394,41 +394,7 @@ Bug no. | Bug description |  Bug fix |
 2 | Requirements.txt | Due to a gitpod upgrade it filled up automatically with many unecessary packages intalled. Besides that i had to install them again every time i started the workpsace. Tutors and Slack advices pointed me in the right direction to fix the issue.
 3 | A few external links would not open in another tab | Problem solved by adding <code>target="_blank"</code> attribute to the anchor tags.
 4 | Python code issues| A fair amount of time has been spent at the end of the project to make the PY code PEP8 compliant.
-
-<br>
-
-### CRUD Features (Creation, Reading, Updating and Deleting) evidence
-
- - <strong>Creation - </strong> xx
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/crud_create.png">
-  </details>
-
- - <strong>Reading - </strong> xx
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/crud_read.png">
-  </details>
-
- - <strong>Updating - </strong> xx
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/crud_edit.png">
-   </details>
-
- - User <strong>Updating - </strong> xx
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/image_crud_functions.png">
-   </details>
-
-
- - <strong>Deleting - </strong> xx
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/crud_delete.png">
-   </details>
-
- - User <strong>Deleting - </strong> xx
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/image_crud_functions.png">
-   </details>
+5 | Django error "object is not iterable"| During the testing phase i have noticed that the anonymous user, when completing the purchase, could not proceed due to the aforementioned error.
 
 <br>
 

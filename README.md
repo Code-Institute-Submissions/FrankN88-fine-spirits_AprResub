@@ -35,8 +35,8 @@ The website is designed to be responsive and accessible on all devices; being at
 - [Database model features](#database-model-features)
 
 4. [FEATURES](#features)
-- [Design Features](#design-features)
 - [Admin Feature](#Admin-Feature)
+- [Design Features](#design-features)
 - [Features left to implement](#features-left-to-implement)
 
 5. [TECHNOLOGIES USED](#technologies-used)
@@ -267,6 +267,18 @@ There are a number of admin views that have been configured at https://fine-spir
 
 - Sites
 ![Sites](readme_files/admin/admin_sites.png)
+
+#### Admin Functionality in the website
+- Other than through the default Django admin interface, products can be added/created, edited and removed (CRUD) directly from the website when entering with admin credentials. This feature facilitates the management of products thanks to a more friendly and direct user interface. This feature makes things easier for the website owner in case he/she needs to make changes on the products without having to access the Django admin interface.
+
+- Add new product
+![Add new product](add_image)
+
+- Delete Product
+![Delete Product](readme_files/admin/admin_users.png)
+
+- Update product Details
+![Update product details](add_image)
 
 <br>
 
