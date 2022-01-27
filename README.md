@@ -579,6 +579,34 @@ Each page of the website features a consistent responsive navigational system:
 
   <br>
 
+  <dt><a href="profile.html" target="_blank" alt="Profile">Profile</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+          <li><strong>x</strong> - x
+      </li>
+     </ul>
+
+  <dd>The Profile page consists of the following elements:
+     <ul>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+          <li><strong>x</strong> - x
+          </li>
+     </ul>
+         <details><summary>Product Detail</summary>
+         <img src="docs/wireframes/registration_devices.png">
+         </details>
+  </dd>
+
+  <br>
+
   <dt><a href="404.html" target="_blank" alt="404 Page">404 Page</a></dt>
      <ul>
          <li><strong>User stories covered by this feature:</strong>  

@@ -443,7 +443,7 @@ Bug no. | Bug description |  Bug fix |
 - Only the default DJANGO insecure key has been initially pushed to Github. Later on, after delploying onto heroku, a new secure key has been generated, inserted into the env.py file which has been as well secured from pushing thanks to the .gitignore file.
 The reasons why the unsafe default django key has been initially pushed onto the repository are:
    - Following the Boutique-Ado tutorials the key gets initially committed and then changed later towards the end of the project.
-   - I was experiencing issues in removing the key initially and running the server locally. Therefore I decided to proceed with the project and I have asked for help from the tutors later.
+   - I was experiencing issues in removing the key initially and running the server locally. Therefore I decided to proceed with the project and I have asked for help from the tutors later. The trials to remove the key are visible in the initials commits.
    - Being insecure by default it had to be changed regardless.
 #### App
 - Only the <strong>Website owner/Admin</strong> has some privileges, such as:
