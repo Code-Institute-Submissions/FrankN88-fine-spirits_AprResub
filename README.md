@@ -101,7 +101,7 @@ The website is designed to be responsive and accessible on all devices; being at
 - #### User needs
 
 The main goal of this website is to increase more and more the popularity of the shop in order to increase sales too.
-Registered users will be able to see their previous orders, their current ones and get discounts as the registration is treated like a loyalty card membership.
+Registered users will be able to see their previous orders, their current ones and get discounts as the registration is treated like a loyalty card membership. In addition to that, as in most e-commerce shops, the convenience of having the personal data already saved is itself a good reason to register.
 The website will show a bright palette as well as minimalistic but aesthetically pleasing imagery to invite users to check out the products.
 
 - **Demographic:**
@@ -175,7 +175,7 @@ The colours used in this project are presented on a light background, to keep a 
  
 Please check out the colour Colour palette.
  <details><summary>Colour palette</summary>
-    <img src="add_colour_palette">
+    <img src="readme_files/colours/colours.png">
  </details>
 
 ---
@@ -304,7 +304,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
 </ul>
   <details><summary>Header</summary>
-    <img src="docs/testing/validators/ux_stories/back_homepage_logo.gif">
+    <img src="readme_files/features/gif/logo.gif">
   </details>
 
 <br>
@@ -414,7 +414,7 @@ Each page of the website features a consistent responsive navigational system:
         </li>
         <li><strong>15</strong> - Make the website as accessible and responsive as possible.
         </li>
-        <li><strong>16</strong> - Gain a better understanding of the audience bv checking their feedback both via the social networks
+        <li><strong>16</strong> - Gain a better understanding of the audience by checking their feedback both via the social networks
         </li>
         <li><strong>17</strong> - Use reviews to increase customer satistaction.
         </li>
@@ -424,7 +424,7 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The Home Page consists of the following elements:
      <ul>
-          <li><strong>Page</strong> - x
+          <li><strong>Page</strong> - Red banner with 
           </li>
           <li><strong>Page</strong> - x
           </li>
