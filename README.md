@@ -330,7 +330,7 @@ Each page of the website features a consistent responsive navigational system:
 #### Footer
 - In the footer is embedded a pop up that warns about the legal age to access pages that sell alcoholic beverages. This is a legal requirement in most countries.
   <details><summary>Footer</summary>
-    <img src="docs/testing/validators/ux_stories/footer.png">
+    <img src="readme_files/popup/over_18_popup.png">
   </details>
 - The **Footer** contains the appropriate **social media icons**, linking users to the main social media pages of the shop. 
 <ul>
@@ -348,7 +348,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
 </ul>
   <details><summary>Footer</summary>
-    <img src="docs/testing/validators/ux_stories/footer.png">
+    <img src="readme_files/features/footer.png">
   </details>
 
 <br>
