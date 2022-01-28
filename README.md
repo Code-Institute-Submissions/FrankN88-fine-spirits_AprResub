@@ -310,7 +310,7 @@ Each page of the website features a consistent responsive navigational system:
 <br>
 
 #### Navigation bar on smaller devices
-- On smaller screens, the two main buttons (Play and Login) reduce their size in a responsive way and self position at the top right next to the registration one.
+- On smaller screens, the navbar links turn into an hamburger menu/toggle button in the top right corner of the page after the login and bag buttons.
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
@@ -322,7 +322,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
 </ul>
   <details><summary>Navbar on small devices</summary>
-    <img src="docs/testing/validators/ux_stories/mobile.png">
+    <img src="readme_files/features/toggle_btn.png">
   </details>
 
 <br>
@@ -364,7 +364,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
 </ul>
   <details><summary>Mailto</summary>
-    <img src="docs/testing/validators/ux_stories/mailto.gif">
+    <img src="readme_files/features/gif/hovering_links_footer.gif">
   </details>
 
 <br>
@@ -382,7 +382,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
 </ul>
   <details><summary>Search Button</summary>
-    <img src="docs/testing/validators/ux_stories/mailto.gif">
+    <img src="readme_files/features/gif/search_button.gif">
   </details>
 
 <br>
@@ -398,7 +398,7 @@ Each page of the website features a consistent responsive navigational system:
     </li>
 </ul>
   <details><summary>Btn back to the top</summary>
-    <img src="docs/testing/validators/ux_stories/button_up.gif">
+    <img src="readme_files/features/gif/btn_up.gif">
   </details>
 
 <br>
