@@ -30,3 +30,29 @@
         </div>
 
     </footer>
+
+    <!-- POPUP UNDERAGE -->
+    <div class="popup_home_overlay">
+        <div class="popup_home">
+            Please confirm that you're over 18<br>or leave the website
+            <div>
+                <a href="https://google.com" class="btn btn-outline-dark btn-lg d-block">Exit</a>
+                <a href="javascript:void(0)" id="accept_confirm_over18" class="btn btn-danger btn-lg d-block">I'm over 18</a>
+            </div>
+        </div>  
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script type="text/javascript">
+        ctrl_popup();
+
+        $("#accept_confirm_over18").click(function(){
+            Cookies.set('over18', '1');
+            ctrl_popup();
+        });
+
+        function ctrl_popup(){
+            if(Cookies.get('over18') == 1) $(".popup_home_overlay").hide();
+        }
+    </script>
+    <!-- END POPUP UNDERAGE -->
