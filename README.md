@@ -328,7 +328,11 @@ Each page of the website features a consistent responsive navigational system:
 <br>
 
 #### Footer
-- The **Footer** contains the appropriate **social media icons**, linking users to the main social media pages of the shop.
+- In the footer is embedded a pop up that warns about the legal age to access pages that sell alcoholic beverages. This is a legal requirement in most countries.
+  <details><summary>Footer</summary>
+    <img src="docs/testing/validators/ux_stories/footer.png">
+  </details>
+- The **Footer** contains the appropriate **social media icons**, linking users to the main social media pages of the shop. 
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
