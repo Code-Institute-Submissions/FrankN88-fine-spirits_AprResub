@@ -251,13 +251,13 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 There are a number of admin views that have been configured at https://fine-spirits.herokuapp.com/admin; They give excellent CRUD operations to the data in the Postgres database as well as search and filter options. They are as follows:
 
 - Email addresses
-![Email addresses](add_image)
+![Email addresses](readme_files/admin/admin_emails.png)
 
 - Users
 ![Users](readme_files/admin/admin_users.png)
 
 - Orders
-![Orders](add_image)
+![Orders](readme_files/admin/admin_orders.png)
 
 - Categories
 ![Categories](readme_files/admin/admin_categories.png)
@@ -275,7 +275,7 @@ There are a number of admin views that have been configured at https://fine-spir
 ![Add new product](add_image)
 
 - Delete Product
-![Delete Product](readme_files/admin/admin_users.png)
+![Delete Product](add_image)
 
 - Update product Details
 ![Update product details](add_image)
