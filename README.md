@@ -102,7 +102,8 @@ The website is designed to be responsive and accessible on all devices; being at
 
 The main goal of this website is to increase more and more the popularity of the shop in order to increase sales too.
 Registered users will be able to see their previous orders, their current ones and get discounts as the registration is treated like a loyalty card membership. In addition to that, as in most e-commerce shops, the convenience of having the personal data already saved is itself a good reason to register.
-The website will show a bright palette as well as minimalistic but aesthetically pleasing imagery to invite users to check out the products.
+- The message "Register and get free delivery on orders over 50€" is visible also to registered user so that they have a reminder that when purchasing products and spending over 50€ the delivery is free.
+- The website will show a bright palette as well as minimalistic but aesthetically pleasing imagery to invite users to check out the products.
 
 - **Demographic:**
   - 18 + years of age.
@@ -422,9 +423,9 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The Home Page consists of the following elements:
      <ul>
-          <li><strong>Page</strong> - Red banner with 
+          <li><strong>Page</strong> - Red banner with catchy phrase.
           </li>
-          <li><strong>Page</strong> - x
+          <li><strong>Page</strong> - Carousel with "Visit the shop" button in the middle.
           </li>
      </ul>
         <details><summary>Home</summary>
@@ -461,11 +462,11 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The Login page consists of the following elements:
      <ul>
-          <li><strong>Login</strong> - x
+          <li><strong>Login</strong> - Red banner with catchy phrase.
           </li>
           <li><strong>Anonymous user</strong> - Allows the user who does not want to register to keep checking anyway by clicking on the appropriate button. The ideal situation would be to have as many registered users as possible but it is always good to allow choice to those who do not want to register.
           </li>
-          <li><strong>Registration</strong> - It opens the registration page.
+          <li><strong>Register</strong> - It opens the registration page.
           </li>
      </ul>
          <details><summary>Login</summary>
@@ -493,13 +494,17 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The Registration page consists of the following elements:
      <ul>
-          <li><strong>Username</strong> - x
+          <li><strong>Banner</strong> - Red banner with catchy phrase.
           </li>
-          <li><strong>Password</strong> - x
+          <li><strong>Email</strong> - Type your email.
           </li>
-          <li><strong>Repeat Password</strong> - x
+          <li><strong>Repeat Email</strong> - Repeat your email for confirmation.
           </li>
-          <li><strong>Create Account</strong> - x
+          <li><strong>Username</strong> - Type your username.
+          </li>
+          <li><strong>Password</strong> - Type your password.
+          </li>
+          <li><strong>Repeat password</strong> - Repeat your password for confirmation.
           </li>
      </ul>
          <details><summary>Registration</summary>
