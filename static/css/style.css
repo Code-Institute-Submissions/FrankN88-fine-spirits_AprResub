@@ -46,6 +46,7 @@ header .nav-menu-search-container{
 header .nav-bar-bottom a{
     padding: 40px 20px;
     text-decoration: none;
+    color: #c22222;
 }
 
 header .nav-menu-account{
@@ -86,7 +87,7 @@ header .sub-menu:hover div{
 }
 
 /* ----- MOBILE HEADER ----- */
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 960px) {
     header .nav-bar button{ 
         display: inline-block;
     }
@@ -120,7 +121,7 @@ header .sub-menu:hover div{
     }
 
     header .sub-menu div{
-        display: block;
+        display: none;
         position: relative;
         top: 0;
         left: 0;
@@ -131,6 +132,15 @@ header .sub-menu:hover div{
         padding-left: 30px;
         padding-right: 0px;
     }
+}
+
+/* ----- BANNER BAR ----- */
+.banner-bar{
+    background: #861A1A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
 }
 
 
@@ -170,11 +180,13 @@ footer a:hover{
     width: 40px;
     line-height: 36px;
     text-align: center;
+    z-index: 20;
 }
 
 /* ----- HOME PAGE CAROUSEL ----- */
 .carousel,.carousel-inner{
     height: 600px;
+    margin: 20px 0;
 }
 
 .carousel-item{
@@ -226,6 +238,43 @@ footer a:hover{
     color: #ccc;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    z-index: 10;
+}
+
+/* ----- POPUP HOME ----- */
+.popup_home_overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000000;
+    backdrop-filter:blur(5px) brightness(110%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_home{
+    border: 3px solid #000;
+    padding: 100px;    
+    background: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.popup_home div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.popup_home div a{
+    margin: 10px;
+}
+
 /* ----- PRODUCTS PAGE ----- */
 .products_list{
     display: grid;
@@ -233,6 +282,7 @@ footer a:hover{
     grid-template-rows: 1fr; 
     gap: 0px;
     margin: 20px 0;
+    background: #eee;
 }
 
 .products_list .product{
@@ -246,6 +296,7 @@ footer a:hover{
     text-decoration: none;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background: #fff;
 }
 
 .products_list .product:hover{
@@ -336,7 +387,7 @@ footer a:hover{
 }
 
 /* ----- SINGLE PRODUCTS PAGE MOBILE ----- */
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 960px) {
     .single_product{
         grid-template-columns: 1fr;
     }
@@ -411,7 +462,7 @@ footer a:hover{
 }
 
 /* ----- BAG LIST MOBILE ----- */
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 960px) {
     .bag_list .bag_row_title{
         display: none;
     }
@@ -484,7 +535,6 @@ footer a:hover{
 }
 
 /* ----- PRODUCT PAGES ----- */
-
 .page-product{
     border: 2px solid #000;
     margin: 50px auto;
