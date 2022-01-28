@@ -234,8 +234,6 @@ Product Detail           |&#9989;        |&#9989;          |&#9989; |
 Product Management(Add Product)     |&#10060;       |&#10060;         |&#9989; |
 Product Management(Edit Product)     |&#10060;       |&#10060;         |&#9989; |
 Product Management(Delete Product)     |&#10060;       |&#10060;         |&#9989; |
-Favourites     |&#10060;       |&#9989;         |&#9989; |
-Add to Favourites     |&#10060;       |&#9989;        |&#9989; |
 My Profile             |&#10060;       |&#9989;          |&#9989; |
 Order History         |&#10060;       |&#9989;          |&#9989; |
 Log out               |&#10060;       |&#9989;          |&#9989; |
@@ -272,13 +270,13 @@ There are a number of admin views that have been configured at https://fine-spir
 - Other than through the default Django admin interface, products can be added/created, edited and removed (CRUD) directly from the website when entering with admin credentials. This feature facilitates the management of products thanks to a more friendly and direct user interface. This feature makes things easier for the website owner in case he/she needs to make changes on the products without having to access the Django admin interface.
 
 - Add new product
-![Add new product](add_image)
+![Add new product](readme_files/features/product_management/add_product.gif)
 
 - Delete Product
-![Delete Product](add_image)
+![Delete Product](readme_files/features/product_management/edit_delete_products.png)
 
-- Update product Details
-![Update product details](add_image)
+- Update/Edit product Details
+![Update product details](readme_files/features/product_management/edit_delete_products.png)
 
 <br>
 
