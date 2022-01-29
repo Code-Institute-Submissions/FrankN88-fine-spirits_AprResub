@@ -5,6 +5,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+main{
+    background: #eee;
+}
 
 /* ----- HEADER ----- */
 header{
@@ -132,6 +142,20 @@ header .sub-menu:hover div{
         padding-left: 30px;
         padding-right: 0px;
     }
+
+    header .sub-menu:hover div{
+        display: none;
+    }
+
+    header .sub-menu.menu-open div{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .bag_total_price{
+        display: none;
+    }
 }
 
 /* ----- BANNER BAR ----- */
@@ -184,6 +208,10 @@ footer a:hover{
 }
 
 /* ----- HOME PAGE CAROUSEL ----- */
+.carousel{
+    overflow: hidden;
+}
+
 .carousel,.carousel-inner{
     height: 600px;
     margin: 20px 0;
@@ -258,9 +286,10 @@ footer a:hover{
 
 .popup_home{
     border: 3px solid #000;
-    padding: 100px;    
+    padding: 60px;    
+    margin: 50px;
     background: #fff;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -282,7 +311,6 @@ footer a:hover{
     grid-template-rows: 1fr; 
     gap: 0px;
     margin: 20px 0;
-    background: #eee;
 }
 
 .products_list .product{
@@ -514,6 +542,13 @@ footer a:hover{
     object-fit: contain;
 }
 
+@media screen and (max-width: 960px) {
+    .message-container .toast{
+        width: calc(100vw);
+        max-width: none;
+    }
+}
+
 /* ----- REGISTRATION PAGES ----- */
 .page-userlog{
     border: 2px solid #000;
@@ -522,6 +557,7 @@ footer a:hover{
     width: 100%;
     max-width: 500px;
     text-align: center;
+    background: #fff;
 }
 
 .page-userlog input[type="text"],
@@ -541,6 +577,7 @@ footer a:hover{
     padding: 50px;
     width: 100%;
     max-width: 800px;
+    background: #fff;
 }
 
 .page-product input[type="text"],

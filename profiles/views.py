@@ -1,6 +1,8 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import logout
+from django.contrib.auth.models import User
 from .models import UserProfile
 from .forms import UserProfileForm
 
@@ -24,6 +26,8 @@ def profile(request):
 
     template = 'profiles/profile.html'
     context = {
+        'name': request.user,
+        'id_profile': request.user.id,
         'form': form,
         'orders': orders,
         'on_profile_page': True
@@ -47,3 +51,27 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+@login_required
+def delete_profile(request, profile_id):
+    """ Delete a profile from the store """
+    if not request.user.is_authenticated:
+        messages.error(request, 'Sorry, only logged users can do that.')
+        return redirect(reverse('profile'))
+
+    """ You can only delete your profile """
+    if profile_id != request.user.id:
+        messages.error(request, 'You cannot delete this profile.')
+        return redirect(reverse('profile'))
+
+    """ Delete a profile from the store """
+    profile = get_object_or_404(UserProfile, user=request.user)
+    profile.delete()
+
+    """ Delete user from the store """
+    user = User.objects.get(id=profile_id)
+    user.delete()
+
+    """ Destroy actual session """
+    logout(request)
+    return redirect(reverse('home'))
