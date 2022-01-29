@@ -132,6 +132,20 @@ header .sub-menu:hover div{
         padding-left: 30px;
         padding-right: 0px;
     }
+
+    header .sub-menu:hover div{
+        display: none;
+    }
+
+    header .sub-menu.menu-open div{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .bag_total_price{
+        display: none;
+    }
 }
 
 /* ----- BANNER BAR ----- */

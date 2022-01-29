@@ -3,6 +3,16 @@ function menu(){
 }
 
 /*
+	OPEN SUB-MENU MOBILE
+*/
+$(function(){
+	$(".sub-menu-head").click(function(e){
+		$(e.target).parent().find("div").toggle();
+	})
+});
+
+
+/*
 	SCROLL TO TOP - ANIMATION + SCROLL
 */
 $(window).scroll(function(){

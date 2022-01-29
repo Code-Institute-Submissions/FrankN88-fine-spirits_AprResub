@@ -27,11 +27,13 @@
 
         <a class="btn btn-light ml-auto" href="{% url 'view_bag' %}">
           <i class="fas fa-shopping-cart mr-1"></i>
+          <span class="bag_total_price">
             {% if grand_total %}
                 €{{ grand_total|floatformat:2 }}
             {% else %}
                 €0.00
             {% endif %}
+          </span>
         </a>
 
         <button type="button" class="btn btn-light ml-auto" onclick="menu()">
