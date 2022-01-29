@@ -527,13 +527,13 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The bag page consists of the following elements:
      <ul>
-          <li><strong>x</strong> - x
+          <li><strong>Title</strong> - Shopping bag
           </li>
-          <li><strong>x</strong> - x
+          <li><strong>Centrale element</strong> - The user will see the name of the added product(s), quantity, price and buttons to update and remove.
           </li>
-          <li><strong>x</strong> - x
+          <li><strong>BTN Keep shopping</strong> - Button to go back to the products page to check out other bottles.
           </li>
-          <li><strong></strong> - x
+          <li><strong>BTN secure checkout</strong> - Button to proceed to secure checkout.
           </li>
      </ul>
          <details><summary>Bag</summary>
@@ -557,13 +557,11 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The Products page consists of the following elements:
      <ul>
-          <li><strong>Username</strong> - x
+          <li><strong>Title</strong> - Products.
           </li>
-          <li><strong>Password</strong> - x
+          <li><strong>Drop down btn</strong> - This button is for sorting by the elements.
           </li>
-          <li><strong>Repeat Password</strong> - x
-          </li>
-          <li><strong>Create Account</strong> - x
+          <li><strong>Products</strong> - List of products in boostrap cards.
           </li>
      </ul>
          <details><summary>Products</summary>
@@ -585,13 +583,11 @@ Each page of the website features a consistent responsive navigational system:
 
   <dd>The Product Detail page consists of the following elements:
      <ul>
-          <li><strong>x</strong> - x
+          <li><strong>Product name</strong> - Product name with its description, category (e.g gin), alcohol % and measure (e.g 100 cl)
           </li>
-          <li><strong>x</strong> - x
+          <li><strong>BTN quantity</strong> - Button to increase and decrease quantity up to a maximum of 15. This feature has been added to make it more realistic. Most bottle stores have in fact very limited stocks on spirits and legal requirements for selling online up to a certain quantity.
           </li>
-          <li><strong>x</strong> - x
-          </li>
-          <li><strong>x</strong> - x
+          <li><strong>2 More buttons</strong> - Button to keep shopping and button to add to bag.
           </li>
      </ul>
          <details><summary>Product Detail</summary>
@@ -605,21 +601,30 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
          <li><strong>User stories covered by this feature:</strong>  
       </li>
-          <li><strong>x</strong> - x
+         <li><strong>5</strong> - Be able to login.
       </li>
-          <li><strong>x</strong> - x
+         <li><strong>6</strong> - Be able to log out.
+      </li>
+      </li>
+         <li><strong>7</strong> - Be able to delete my account.
+      </li>
+         <li><strong>8</strong> - Be able to add personal details.
+      </li>
+         <li><strong>9</strong> - Be able to update personal details.
+      </li>
+         <li><strong>10</strong> - Be able view my order history.
       </li>
      </ul>
 
   <dd>The Profile page consists of the following elements:
      <ul>
-          <li><strong>x</strong> - x
+          <li><strong>Form</strong> - Form with default delivery information boxes.
           </li>
-          <li><strong>x</strong> - x
+          <li><strong>BTN</strong> - Button to update information.
           </li>
-          <li><strong>x</strong> - x
+          <li><strong>BTN</strong> - Button to delete your profile.
           </li>
-          <li><strong>x</strong> - x
+          <li><strong>Order history</strong> - In the right part of the page you can see your order history complete of all details.
           </li>
      </ul>
          <details><summary>Product Detail</summary>
