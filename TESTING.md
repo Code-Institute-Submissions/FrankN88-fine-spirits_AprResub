@@ -58,42 +58,42 @@
 
         1. At the top right corner of the page the user will be able to log in by clicking on the first icon.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/score_dates.png">
+           <img src="readme_files/testing/user_stories/login_icon.png">
            </details>
 
     6. Be able to log out.
 
         1. Once in, the user will easily be able to log out.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/cards.png">
+           <img src="readme_files/testing/user_stories/logout_btn.png">
            </details>
 
     7. Be able to delete my account.
 
-        1. The user will be able to delete the account by clicking on the specific button.
+        1. The user will be able to delete the account by clicking on the specific button. A message will warn you before confirming the action.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/score_dates.png">
+           <img src="readme_files/testing/user_stories/delete_profile.png">
            </details>
 
     8. Be able to add personal details.
 
         1. The user will add his/her personal details when registering to the page.
            <details><summary></summary>
-           <img src="docs/testing/validators/ux_stories/score_dates.png">
+           <img src="readme_files/testing/user_stories/add_details.png">
            </details>
 
     9. Be able to update personal details.
 
         1. The user will be able to edit his/her personal details if necessary.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/testing/user_stories/update_profile.png">
            </details>
     
     10. Be able view my order history.
 
-        1. Only the logged in user will be able to check the history of his/her orders.
+        1. Only the logged in user will be able to check the history of his/her orders. The order will position in chronological order in the right part of the page as in the image below.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/testing/user_stories/order_history.png">
            </details>
        
 
