@@ -302,6 +302,8 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 style.css | Passed, No errors found | [Results](xx)
 profile.css | Passed, No errors found | [Results](xx)
+checkout.css | Passed, No errors found | [Results](xx)
+checkout_success.css | Passed, No errors found | [Results](xx)
 
 <br>
 
@@ -312,6 +314,7 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 countryfield.js | 0 errors | [Results](xx)
 script.js | 0 errors | [Results](xx)
+stripe_elements.js | 0 errors | [Results](xx)
 
 <br>
 
