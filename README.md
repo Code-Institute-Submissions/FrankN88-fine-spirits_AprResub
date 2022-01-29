@@ -717,9 +717,6 @@ Each page of the website features a consistent responsive navigational system:
 - [JSHint](https://jshint.com/)
   - This is a tool used to detect errors or potential problems within Javascript code, used to test and validate all Javascript written for this project.
 
-- [Pylint](https://www.pylint.org/)
-  - Pylint is a source-code, bug and quality checker for the Python programming language.
-
 - [Django](https://www.djangoproject.com/)
   - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
 

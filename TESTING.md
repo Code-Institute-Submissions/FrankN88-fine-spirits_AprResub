@@ -12,44 +12,44 @@
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable sticky navigation bar to go to the page(s) of the desired product.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/navbar.png">
+           <img src="readme_files/testing/user_stories/navbar.png">
            </details>
         2. The button "Visit the shop" will take the user to the page with all products. Otherwise the user who knows exacly what to buy can put the name in the search box (e.g. "Dingle Gin") or select the spirit family (e.g "frome the vines --> Grappa --> Nardini)
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/cards.png">
+           <img src="readme_files/testing/user_stories/btn_visit_the_shop.gif">
            </details>
         3. At the bottom of the page there is a footer with the links to the social networks and contacts. 
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/features/footer.png">
            </details>
 
     2. Check out a specific bottle, visualise the relative details and price.
 
         1. The user, when selecting a specific bottle, will have the chance to check all of the details of the product. 
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/play_card.png">
+           <img src="readme_files/testing/user_stories/checking_a_bottle.gif">
            </details>
 
     3. Purchase a bottle.
 
         1. After selecting the bottle and the desired quantity, the user will add it to the bag and proceed to check out.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           <img src="readme_files/testing/user_stories/add_to_bag.gif">
            </details>
         2. The user will add his/her details.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           <img src="readme_files/testing/user_stories/add_your_details.png">
            </details>
         3. The user will complete the order.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           <img src="readme_files/testing/user_stories/making_order.gif">
            </details>
 
     4. Locate their social media links to see their followings on social media in order to be updated about their latest releases.
 
         1. At the bottom of the page there is a footer with the links to the social networks and email.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/hover_footer_links.gif">
+           <img src="readme_files/features/gif/hovering_links_footer.gif">
            </details>
 
 -   #### Registered user/ returning/ frequent visitor goals
