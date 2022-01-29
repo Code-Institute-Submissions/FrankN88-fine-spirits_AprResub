@@ -300,10 +300,10 @@ profile.html | Passed, No errors found | [Results](xx)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-style.css | Passed, No errors found | [Results](xx)
-profile.css | Passed, No errors found | [Results](xx)
-checkout.css | Passed, No errors found | [Results](xx)
-checkout_success.css | Passed, No errors found | [Results](xx)
+style.css | Passed, No errors found | [Results](readme_files/testing/validators/css/style_css.png)
+profile.css | Passed, No errors found | [Results](readme_files/testing/validators/css/profile_css.png)
+checkout.css | Passed, No errors found | [Results](readme_files/testing/validators/css/checkout_css.png)
+checkout_success.css | Passed, No errors found | [Results](readme_files/testing/validators/css/checkout_success_css.png)
 
 <br>
 
@@ -312,9 +312,9 @@ checkout_success.css | Passed, No errors found | [Results](xx)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-countryfield.js | 0 errors | [Results](xx)
-script.js | 0 errors | [Results](xx)
-stripe_elements.js | 0 errors | [Results](xx)
+countryfield.js | 0 errors | [Results](readme_files/testing/validators/js/countryfield_js.png)
+script.js | 0 errors | [Results](readme_files/testing/validators/js/script_js.png)
+stripe_elements.js | 0 errors | [Results](readme_files/testing/validators/js/stripe_elements_js.png)
 
 <br>
 
