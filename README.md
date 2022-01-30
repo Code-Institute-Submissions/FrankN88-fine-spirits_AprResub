@@ -155,7 +155,7 @@ This will all be achieved through creating a clear and strong UI focusing on wel
 
 The information architecture was organized in a fluid and clear way in order to ensure that users could navigate through the site with ease and efficiency.
 
-![Site Map](add_image)
+![Site Map](readme_files/wireframes/structure.png)
 
 ---
 

@@ -403,7 +403,7 @@ Bug no. | Bug description |  Bug fix |
 3 | A few external links would not open in another tab | Problem solved by adding <code>target="_blank"</code> attribute to the anchor tags.
 4 | Python code issues| A fair amount of time has been spent at the end of the project to make the PY code PEP8 compliant.
 5 | Django error "object is not iterable"| During the testing phase i have noticed that the anonymous user, when completing the purchase, could not proceed due to the aforementioned error.
-1 | Button attached to each other in the bag mobile view| I have noticed this issue towards the end so i have acted on css to fix it.
+6 | Button attached to each other in the bag mobile view| I have noticed this issue towards the end so i have acted on css to fix it.
 
 <br>
 
