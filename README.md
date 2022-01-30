@@ -627,7 +627,7 @@ Each page of the website features a consistent responsive navigational system:
           <li><strong>Order history</strong> - In the right part of the page you can see your order history complete of all details.
           </li>
      </ul>
-         <details><summary>Product Detail</summary>
+         <details><summary>Profile</summary>
          <img src="docs/wireframes/registration_devices.png">
          </details>
   </dd>
