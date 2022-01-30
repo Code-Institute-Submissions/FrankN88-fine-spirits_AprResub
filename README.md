@@ -214,7 +214,7 @@ Please check out the colour Colour palette.
 
 - This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database.
 
-![DB Data Structure](add_image)
+![DB Data Structure](readme_files/testing/db_scheme/db_diagram.png)
 
 ---
 
