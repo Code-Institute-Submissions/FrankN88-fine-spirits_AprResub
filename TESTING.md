@@ -206,7 +206,7 @@ Manual testing was conducted on the following elements of the [Home Page](index.
  - All the elements are responsive (header, footer, cards).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Home Page</summary>
-    <img src="docs/testing/validators/ux_stories/home_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/home.gif">
   </details>
  
 ### Login Page
@@ -215,7 +215,7 @@ Manual testing was conducted on the following elements of the [Login Page](login
  - All the elements are responsive (header, footer, central window).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Login page</summary>
-    <img src="docs/testing/validators/ux_stories/login_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/login.gif">
   </details>
 
 ### Registration Page
@@ -224,7 +224,7 @@ Manual testing was conducted on the following elements of the [Registration Page
  - All the elements are responsive (header, footer, central window).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Registration page</summary>
-    <img src="docs/testing/validators/ux_stories/registration_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/registration.gif">
   </details>
 
 ### Bag
@@ -233,7 +233,7 @@ Manual testing was conducted on the following elements of the [Bag Page](bag.htm
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Bag Page</summary>
-    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/bag.gif">
    </details>
 
 ### Products page
@@ -242,7 +242,7 @@ Manual testing was conducted on the following elements of the [Products Page](pr
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Products Page</summary>
-    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/products.gif">
    </details>
 
 ### Product detail
@@ -251,7 +251,7 @@ Manual testing was conducted on the following elements of the [Product Detail](p
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Product detail Page</summary>
-    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/product_detail.gif">
    </details>
 
 ### Profile
@@ -260,7 +260,7 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
  - All the elements are responsive (header, footer, text).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Profile Page</summary>
-    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/profile.gif">
    </details>
 
 ### 404 Page
