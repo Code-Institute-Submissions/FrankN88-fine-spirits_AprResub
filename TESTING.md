@@ -103,58 +103,58 @@
 
         1. Only the admin can add products to the site.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/delete_user.gif">
+           <img src="readme_files/features/product_management/add_product.gif">
            </details>
 
     12. Be able to update product details (CRUD funcionality).
 
         1. Only the admin can edit products to the site.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/edit_questions.png">
+           <img src="readme_files/features/product_management/edit_delete_products.png">
            </details>
 
     13. Be able to delete products from the site (CRUD funcionality). 
 
         1. Only the admin can delete products to the site.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/admin_power.png">
+           <img src="readme_files/features/product_management/edit_delete_products.png">
            </details>
 
     14. Have unique access to all features.
 
-        1. As Shown:
+        1. Changes can be made only by logging in with admin credentials.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/admin_power.png">
+           <img src="readme_files/testing/user_stories/logged_as_admin.png">
            </details>
 
 -   #### Site Owner Goals, Testing
 
      15. Make the website as accessible and responsive as possible.
 
-         1. The website is responsive on any device and is designed according to the most important UX principles.
+         1. The website is responsive on any device and is designed according to the most important UX principles - Please check responsiveness testing below.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/home.gif">
+           <img src="readme_files/testing/user_stories/built_ux_guidelines.gif">
            </details>
 
      16. Gain a better understanding of the audience by checking their feedback both via the social networks.
 
          1. Access (via na external link) to the social netorks in present in the footer of each page.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/features/gif/hovering_links_footer.gif">
            </details>
 
      17. Use reviews to increase customer satisfaction.
 
          1. The social networks and email can help with feedback.
-           <details><summary>xxe</summary>
-           <img src="docs/testing/validators/ux_stories/home.gif">
+           <details><summary>Evidence</summary>
+           <img src="readme_files/features/footer.png">
            </details>
 
      18. Find the best way to allow communication bewteen customer and the organization.
 
          1. The social networks and email will improve communication between the user and the organization.
-           <details><summary>xxe</summary>
-           <img src="docs/testing/validators/ux_stories/home.gif">
+           <details><summary>Evidence</summary>
+           <img src="readme_files/testing/user_stories/external_link.gif">
            </details>
 
 ## User testing 
@@ -172,32 +172,32 @@ Manual testing was conducted on the following pages in order to assess responsiv
 
 - Hovering over the Navbar will trigger `hover` effect.
   <details><summary>Navbar hover</summary>
-    <img src="docs/testing/validators/ux_stories/hover_navbar.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/navbar_over.gif">
   </details>
 
 - Hovering over Social links will trigger `hover` effect and clicking on them will open a new tab. 
   <details><summary>Hover and open new tab</summary>
-    <img src="docs/testing/validators/ux_stories/hover_footer_links.gif">
+    <img src="readme_files/testing/user_stories/external_link.gif">
   </details>
 
 - Clicking on the logo will take you back to the home page or refresh it.
   <details><summary>Click logo to return to home page</summary>
-    <img src="docs/testing/validators/ux_stories/back_homepage_logo.gif">
+    <img src="readme_files/features/gif/logo.gif">
   </details>
 
 - Hovering over the email in the footer will trigger `hover` effect and clicking on them will redirect you to the email (mailto).
   <details><summary>Mailto</summary>
-    <img src="docs/testing/validators/ux_stories/mailto.gif">
+    <img src="readme_files/testing/user_stories/manual_testing/mailto_link.png">
   </details>
 
 - Clicking on the  `Back to the top` button will bring the user back to the top of the page.
   <details><summary>Back to the top button</summary>
-    <img src="docs/testing/validators/ux_stories/mailto.gif">
+    <img src="readme_files/features/gif/btn_up.gif">
   </details>
 
 - Typing a specific product or type of spirit in the `Search box` will show exaclty what the user is looking for.
   <details><summary>Search box</summary>
-    <img src="docs/testing/validators/ux_stories/mailto.gif">
+    <img src="readme_files/features/gif/search_button.gif">
   </details>
 
 ### Home Page
