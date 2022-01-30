@@ -362,6 +362,9 @@ profile.html | [Results](xx)
 <br>
 
 ### Stripe testing
+- When entering the Credit Card code for payment, in order to successfully proceed please enter the first two to four digits as if it was a real card. For example "4242" for Visa or "5151" for Mastercard in order to be recognised for the payment by Stripe. 
+Any combination will work as long as the card has the first digits as if it was a "real one".
+
 - Order completed in the form.
    <details><summary>Evidence</summary>
     <img src="readme_files/stripe/order_completed.png">
