@@ -131,6 +131,10 @@ header .sub-menu:hover div{
         width: 100%;
     }
 
+    header .sub-menu{
+        display: block;
+    }
+
     header .sub-menu div{
         display: none;
         position: relative;
