@@ -268,14 +268,7 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
     <img src="readme_files/testing/user_stories/manual_testing/profile.gif">
    </details>
 
-### 404 Page
-Manual testing was conducted on the following elements of the [404 Page](404.html):
-
- - All the elements are responsive (header, footer, text).
- - The buttons in the Navbar turns into smaller buttons ordered in the same way.
-   <details><summary>404 Page</summary>
-    <img src="docs/testing/validators/ux_stories/404_responsiveness.gif">
-   </details>
+<br>
 
 ## Automated Testing  :wrench:
 
@@ -293,10 +286,6 @@ edit_product.html | Passed, No errors found | [Results](readme_files/testing/val
 products.html | Passed, No errors found | [Results](readme_files/testing/validators/html/products.jpg)
 product_detail.html | Passed, No errors found | [Results](readme_files/testing/validators/html/product_detail.jpg)
 profile.html | Passed, No errors found | [Results](readme_files/testing/validators/html/profile.png)
-400.html | Passed, No errors found | [Results](xx)
-403.html | Passed, No errors found | [Results](xx)
-404.html | Passed, No errors found | [Results](xx)
-500.html | Passed, No errors found | [Results](xx)
 
 <br>
 
@@ -356,10 +345,6 @@ edit_product.html | [Results](xx)
 products.html | [Results](xx)
 product_detail.html | [Results](xx)
 profile.html | [Results](xx)
-400.html | [Results](xx)
-403.html | [Results](xx)
-404.html | [Results](xx)
-500.html | [Results](xx)
 
 <br>
 

@@ -634,31 +634,6 @@ Each page of the website features a consistent responsive navigational system:
 
   <br>
 
-  <dt><a href="404.html" target="_blank" alt="404 Page">404 Page</a></dt>
-     <ul>
-         <li><strong>User stories covered by this feature:</strong>  
-      </li>
-          <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
-      </li>
-          <li><strong>15</strong> - Make the website as accessible and responsive as possible
-      </li>
-     </ul>
-
-  <dd>The 404 page consists of the following elements:
-     <ul>
-          <li><strong>Line 1</strong> - It shows that the user is on page 404.
-          </li>
-          <li><strong>Line 2</strong> - Standard line for a page 404, inviting the user to click on the links to go back to a page of the website.
-          </li>
-     </ul>
-         <details><summary>404</summary>
-         <img src="docs/wireframes/404_devices.png">
-         </details>
-  </dd>
-  </dl>
-
-  <br>
-
 ### Features left to implement
 
 - Improved searching and filtering on the products page.
