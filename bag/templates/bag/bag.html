@@ -98,7 +98,7 @@
 {% block postloadjs %}
     {{ block.super }}
 
-        <script type="text/javascript">
+        <script>
             // Remove item and reload on click
             $('.btn-remove').click(function(e) {
                 var csrfToken = "{{ csrf_token }}";

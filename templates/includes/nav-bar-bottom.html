@@ -1,24 +1,24 @@
 <div class="nav-bar-bottom">
     
     <div class="nav-menu">
-        <span class="sub-menu">
+        <div class="sub-menu">
             <a class="sub-menu-head" href="javascript:void(0)">All products <i class="fas fa-angle-down"></i></a>
             <div>
                 <a href="{% url 'products' %}?sort=price&direction=asc">Sort by price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc">Sort by rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc">Sort by category</a>
             </div>
-        </span>
+        </div>
 
-        <span class="sub-menu">
+        <div class="sub-menu">
             <a class="sub-menu-head" href="javascript:void(0)">From the vines <i class="fas fa-angle-down"></i></a>
             <div>
                 <a href="{% url 'products' %}?category=grappa">Grappa</a>
                 <a href="{% url 'products' %}?category=cognac-armagnac">Cognac & Armagnac</a>
             </div>
-        </span>
+        </div>
 
-        <span class="sub-menu">
+        <div class="sub-menu">
             <a class="sub-menu-head" href="javascript:void(0)">European Spirits <i class="fas fa-angle-down"></i></a>
             <div>
                 <a href="{% url 'products' %}?category=whisky-bourbon">Whisky & Bourbon</a>
@@ -27,15 +27,15 @@
                 <a href="{% url 'products' %}?category=digestif">Digestif</a>
                 <a href="{% url 'products' %}?category=calvados">Calvados</a>
             </div>
-        </span>
+        </div>
 
-        <span class="sub-menu">
+        <div class="sub-menu">
             <a class="sub-menu-head" href="javascript:void(0)">Imported Spirits <i class="fas fa-angle-down"></i></a>
             <div>
                 <a href="{% url 'products' %}?category=tequila-mezcal">Tequila & Mezcal</a>
                 <a href="{% url 'products' %}?category=rum">Rum</a>
             </div>
-        </span>
+        </div>
 
     </div>
 

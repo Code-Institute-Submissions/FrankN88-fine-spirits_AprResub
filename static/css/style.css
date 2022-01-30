@@ -69,6 +69,7 @@ header .nav-bar-bottom.menu-open{
 
 header .sub-menu{
     position: relative;
+    display: inline-block;
 }
 
 header .sub-menu div{
