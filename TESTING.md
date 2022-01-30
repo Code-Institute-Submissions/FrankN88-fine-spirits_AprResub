@@ -120,6 +120,11 @@
            <img src="readme_files/features/product_management/edit_delete_products.png">
            </details>
 
+        2. Only the admin can delete products to the site - action.
+           <details><summary>Evidence</summary>
+           <img src="readme_files/testing/user_stories/manual_testing/product_deleted.gif">
+           </details>
+
     14. Have unique access to all features.
 
         1. Changes can be made only by logging in with admin credentials.
@@ -279,15 +284,15 @@ Manual testing was conducted on the following elements of the [404 Page](404.htm
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-home.html | Passed, No errors found | [Results](xx)
-login.html | Passed, No errors found | [Results](xx)
-registration.html | Passed, No errors found | [Results](xx)
-bag.html | Passed, No errors found | [Results](xx)
-add_product.html | Passed, No errors found | [Results](xx)
-edit_product.html | Passed, No errors found | [Results](xx)
-products.html | Passed, No errors found | [Results](xx)
-product_detail.html | Passed, No errors found | [Results](xx)
-profile.html | Passed, No errors found | [Results](xx)
+home.html | Passed, No errors found | [Results](readme_files/testing/validators/html/home.jpg)
+login.html | Passed, No errors found | [Results](readme_files/testing/validators/html/login.jpg)
+registration.html | Passed, No errors found | [Results](readme_files/testing/validators/html/registration.jpg)
+bag.html | Passed, No errors found | [Results](readme_files/testing/validators/html/bag.jpg)
+add_product.html | Passed, No errors found | [Results](readme_files/testing/validators/html/add_product.jpg)
+edit_product.html | Passed, No errors found | [Results](readme_files/testing/validators/html/edit_product.jpg)
+products.html | Passed, No errors found | [Results](readme_files/testing/validators/html/products.jpg)
+product_detail.html | Passed, No errors found | [Results](readme_files/testing/validators/html/product_detail.jpg)
+profile.html | Passed, No errors found | [Results](readme_files/testing/validators/html/profile.png)
 400.html | Passed, No errors found | [Results](xx)
 403.html | Passed, No errors found | [Results](xx)
 404.html | Passed, No errors found | [Results](xx)
@@ -398,6 +403,7 @@ Bug no. | Bug description |  Bug fix |
 3 | A few external links would not open in another tab | Problem solved by adding <code>target="_blank"</code> attribute to the anchor tags.
 4 | Python code issues| A fair amount of time has been spent at the end of the project to make the PY code PEP8 compliant.
 5 | Django error "object is not iterable"| During the testing phase i have noticed that the anonymous user, when completing the purchase, could not proceed due to the aforementioned error.
+1 | Button attached to each other in the bag mobile view| I have noticed this issue towards the end so i have acted on css to fix it.
 
 <br>
 
