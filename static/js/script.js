@@ -7,7 +7,7 @@ function menu(){
 */
 $(function(){
 	$(".sub-menu-head").click(function(e){
-		$(e.target).parent().find("div").toggle();
+		$(e.target).parent().toggleClass("sub-menu-open");
 	})
 });
 

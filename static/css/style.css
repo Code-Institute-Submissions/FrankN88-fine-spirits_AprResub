@@ -143,12 +143,16 @@ header .sub-menu:hover div{
         border: none;
     }
     
+    header .sub-menu.sub-menu-open div{
+        display: block;
+    }
+    
     header .sub-menu div a{
         padding-left: 30px;
         padding-right: 0px;
     }
 
-    header .sub-menu:hover div{
+    header .sub-menu:not(.sub-menu-open):hover div{
         display: none;
     }
 
