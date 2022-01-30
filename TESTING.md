@@ -12,44 +12,44 @@
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable sticky navigation bar to go to the page(s) of the desired product.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/navbar.png">
+           <img src="readme_files/testing/user_stories/navbar.png">
            </details>
         2. The button "Visit the shop" will take the user to the page with all products. Otherwise the user who knows exacly what to buy can put the name in the search box (e.g. "Dingle Gin") or select the spirit family (e.g "frome the vines --> Grappa --> Nardini)
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/cards.png">
+           <img src="readme_files/testing/user_stories/btn_visit_the_shop.gif">
            </details>
         3. At the bottom of the page there is a footer with the links to the social networks and contacts. 
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/features/footer.png">
            </details>
 
     2. Check out a specific bottle, visualise the relative details and price.
 
         1. The user, when selecting a specific bottle, will have the chance to check all of the details of the product. 
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/play_card.png">
+           <img src="readme_files/testing/user_stories/checking_a_bottle.gif">
            </details>
 
     3. Purchase a bottle.
 
         1. After selecting the bottle and the desired quantity, the user will add it to the bag and proceed to check out.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           <img src="readme_files/testing/user_stories/add_to_bag.gif">
            </details>
         2. The user will add his/her details.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           <img src="readme_files/testing/user_stories/add_your_details.png">
            </details>
         3. The user will complete the order.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/registered_and_anonymous.png">
+           <img src="readme_files/testing/user_stories/making_order.gif">
            </details>
 
     4. Locate their social media links to see their followings on social media in order to be updated about their latest releases.
 
         1. At the bottom of the page there is a footer with the links to the social networks and email.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/hover_footer_links.gif">
+           <img src="readme_files/features/gif/hovering_links_footer.gif">
            </details>
 
 -   #### Registered user/ returning/ frequent visitor goals
@@ -58,42 +58,42 @@
 
         1. At the top right corner of the page the user will be able to log in by clicking on the first icon.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/score_dates.png">
+           <img src="readme_files/testing/user_stories/login_icon.png">
            </details>
 
     6. Be able to log out.
 
         1. Once in, the user will easily be able to log out.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/cards.png">
+           <img src="readme_files/testing/user_stories/logout_btn.png">
            </details>
 
     7. Be able to delete my account.
 
-        1. The user will be able to delete the account by clicking on the specific button.
+        1. The user will be able to delete the account by clicking on the specific button. A message will warn you before confirming the action.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/score_dates.png">
+           <img src="readme_files/testing/user_stories/delete_profile.png">
            </details>
 
     8. Be able to add personal details.
 
         1. The user will add his/her personal details when registering to the page.
            <details><summary></summary>
-           <img src="docs/testing/validators/ux_stories/score_dates.png">
+           <img src="readme_files/testing/user_stories/add_details.png">
            </details>
 
     9. Be able to update personal details.
 
         1. The user will be able to edit his/her personal details if necessary.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/testing/user_stories/update_profile.png">
            </details>
     
     10. Be able view my order history.
 
-        1. Only the logged in user will be able to check the history of his/her orders.
+        1. Only the logged in user will be able to check the history of his/her orders. The order will position in chronological order in the right part of the page as in the image below.
            <details><summary>Evidence</summary>
-           <img src="docs/testing/validators/ux_stories/footer.png">
+           <img src="readme_files/testing/user_stories/order_history.png">
            </details>
        
 
@@ -300,8 +300,10 @@ profile.html | Passed, No errors found | [Results](xx)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-style.css | Passed, No errors found | [Results](xx)
-profile.css | Passed, No errors found | [Results](xx)
+style.css | Passed, No errors found | [Results](readme_files/testing/validators/css/style_css.png)
+profile.css | Passed, No errors found | [Results](readme_files/testing/validators/css/profile_css.png)
+checkout.css | Passed, No errors found | [Results](readme_files/testing/validators/css/checkout_css.png)
+checkout_success.css | Passed, No errors found | [Results](readme_files/testing/validators/css/checkout_success_css.png)
 
 <br>
 
@@ -310,8 +312,9 @@ profile.css | Passed, No errors found | [Results](xx)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-countryfield.js | 0 errors | [Results](xx)
-script.js | 0 errors | [Results](xx)
+countryfield.js | 0 errors | [Results](readme_files/testing/validators/js/countryfield_js.png)
+script.js | 0 errors | [Results](readme_files/testing/validators/js/script_js.png)
+stripe_elements.js | 0 errors | [Results](readme_files/testing/validators/js/stripe_elements_js.png)
 
 <br>
 
