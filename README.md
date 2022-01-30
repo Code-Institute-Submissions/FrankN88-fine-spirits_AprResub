@@ -2,7 +2,7 @@
 
 <h1 align="center">Fine Spirits :cocktail: | Milestone :four: Project </h1>
 
-![Image of the mockup of the live website](add_mockup_responsive)
+![Image of the mockup of the live website](readme_files/testing/mockup/mockup.png)
 
 ### [View live project here](https://fine-spirits.herokuapp.com/)
 ### [View the testing information here - (TESTING.md) ](TESTING.md)
