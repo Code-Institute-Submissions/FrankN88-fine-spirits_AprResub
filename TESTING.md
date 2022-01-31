@@ -398,6 +398,8 @@ Bug no. | Bug description |  Bug fix |
 4 | Python code issues| A fair amount of time has been spent at the end of the project to make the PY code PEP8 compliant.
 5 | Django error "object is not iterable"| During the testing phase i have noticed that the anonymous user, when completing the purchase, could not proceed due to the aforementioned error.
 6 | Button attached to each other in the bag mobile view| I have noticed this issue towards the end so i have acted on css to fix it.
+7 | Setting up the email| After finalising a purchase i have realised that the email service was not working. A great amount of time has been spent in dealing with this issue. Tutors have helped troubleshooting and i have managed to fix this bug by setting up a new webhook in Stripe.
+
 
 <br>
 
