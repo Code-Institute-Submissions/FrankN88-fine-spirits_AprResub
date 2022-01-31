@@ -363,7 +363,8 @@ profile.html | [Results](xx)
 
 ### Stripe testing
 - When entering the Credit Card code for payment, in order to successfully proceed please enter the first two to four digits as if it was a real card. For example "4242" for Visa or "5151" for Mastercard in order to be recognised for the payment by Stripe. 
-Any combination will work as long as the card has the first digits as if it was a "real one".
+Any combination will work as long as the card has the first digits as if it was a "real one". 
+The first payments were done all in US Dollars, the default Stripe Currency. Later in the project i have updated the currency in settings.py in Euros €.
 
 - Order completed in the form.
    <details><summary>Evidence</summary>
@@ -378,6 +379,11 @@ Any combination will work as long as the card has the first digits as if it was 
 - Payment intent as shown.
    <details><summary>Evidence</summary>
     <img src="readme_files/stripe/payment_intent.png">
+   </details>
+
+- Webhook details/ webhook successful
+   <details><summary>Evidence</summary>
+    <img src="readme_files/stripe/webhook_successful.png">
    </details>
 
 <br>
@@ -397,9 +403,9 @@ Bug no. | Bug description |  Bug fix |
 
 ### Other Features
 
- - <strong>Already existing username - </strong> If the username already exists, the user is advised.
+ - <strong>Email after making an order - </strong> The customer will receive a confirmation email with the details of the purchase.
    <details><summary>Evidence</summary>
-    <img src="docs/testing/other_features/existing_user.png">
+    <img src="readme_files/email/testing_email.png">
   </details>
 
  - <strong>Welcome message - </strong> The registered user can see his name on the page.
