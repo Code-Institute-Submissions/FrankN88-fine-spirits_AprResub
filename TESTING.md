@@ -317,7 +317,30 @@ stripe_elements.js | 0 errors | [Results](readme_files/testing/validators/js/str
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-app.py | 0 errors | [Results](xx)
+fine_spirits/settings.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits_setting.png)
+fine_spirits/urls.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+checkout/webook_handler.py | 0 errors | [Results](readme_files/testing/validators/pep8/checkout_webhook_handler.png)
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
+settings.py | 0 errors | [Results]()
 <br>
 
 ### Browser Validation
@@ -364,7 +387,7 @@ profile.html | [Results](xx)
 ### Stripe testing
 - When entering the Credit Card code for payment, in order to successfully proceed please enter the first two to four digits as if it was a real card. For example "4242" for Visa or "5151" for Mastercard in order to be recognised for the payment by Stripe. 
 Any combination will work as long as the card has the first digits as if it was a "real one". 
-The first payments were done all in US Dollars, the default Stripe Currency. Later in the project i have updated the currency in settings.py in Euros €.
+- The first payments were done all in US Dollars, the default Stripe Currency. Later in the project i have updated the currency in settings.py in Euros €.
 
 - Order completed in the form.
    <details><summary>Evidence</summary>
