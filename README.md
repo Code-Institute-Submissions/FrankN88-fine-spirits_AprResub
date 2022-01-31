@@ -738,16 +738,17 @@ To set up Stripe, proceed as follows:
 <br><code>os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')</code>
 
 6. Back in the Developers section of your stripe account click on Webhooks
-7. Create a webhook with the url of your website <url>/checkout/wh/, for example: https://dashboard.heroku.com/apps/fine-spirits/checkout/wh/
+7. Create a webhook with the url of your website <url>/checkout/wh/, for example: https://fine-spirits.herokuapp.com/checkout/wh/
+
+![Webhook](readme_files/stripe/wb_created.png)
+
 8. Select the payment_intent.payment_failed and payment_intent.succeeded as events to send.
-
-![Webhook](readme_files/api/wh.png)
-
 9. Note the key created for this webhook
 10. In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values
 <code>os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')</code>
 
 11. Feel free to test out the webhook and note the success/fail attempts for troubleshooting.
+![Webhook](readme_files/stripe/webhook_successful.png)
 12. For futher information please check Stripe Testing in the [(TESTING.md) ](TESTING.md) file.
 ---
 
