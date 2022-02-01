@@ -1,14 +1,32 @@
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django import forms
+
+# Internal:
 from .models import Order
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class OrderForm(forms.ModelForm):
+    """
+    A class for the order form
+    """
     class Meta:
+        """
+        A class for Meta information
+        """
         model = Order
-        fields = ('full_name', 'email', 'phone_number',
-                    'street_address', 'town_or_city',
-                    'postcode', 'country',
-                    'county',)
+        fields = (
+            'full_name',
+            'phone_number',
+            'street_address',
+            'town_or_city',
+            'postcode',
+            'country',
+            'county',
+            )
 
     def __init__(self, *args, **kwargs):
         """
