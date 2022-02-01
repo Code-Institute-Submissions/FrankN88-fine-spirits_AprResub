@@ -314,6 +314,7 @@ stripe_elements.js | 0 errors | [Results](readme_files/testing/validators/js/str
 
 ### PEP8 Online Check
 - [PEP8 Online](http://pep8online.com/) was used to analyse the `PYTHON` file.
+- The files that have not been used (e.g home/admin.py etc) have not been analysed as empty and not relevant to this specific project.
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
@@ -333,10 +334,9 @@ checkout/signals.py | 0 errors | [Results](readme_files/testing/validators/pep8/
 checkout/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/checkout/checkout_urls.png)
 checkout/webook_handler.py | 0 errors | [Results](readme_files/testing/validators/pep8/checkout/checkout_webhook_handler.png)
 checkout/webhooks.py | 0 errors | [Results](readme_files/testing/validators/pep8/checkout/checkout_webhooks.png)
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
+home/apps.py | 0 errors | [Results](readme_files/testing/validators/pep8/home/home_apps.png)
+home/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/home/home_urls.png)
+home/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/home/home_views.png)
 settings.py | 0 errors | [Results]()
 settings.py | 0 errors | [Results]()
 settings.py | 0 errors | [Results]()
