@@ -317,8 +317,8 @@ stripe_elements.js | 0 errors | [Results](readme_files/testing/validators/js/str
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-fine_spirits/settings.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits_settings.png)
-fine_spirits/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits_urls.png)
+fine_spirits/settings.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits/fine_spirits_setting.png)
+fine_spirits/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits/fine_spirits:urls.png)
 bag/admin.py | 0 errors | [Results]()
 bag/apps.py | 0 errors | [Results]()
 bag/contexts.py | 0 errors | [Results]()

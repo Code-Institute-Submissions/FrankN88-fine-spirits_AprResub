@@ -39,8 +39,8 @@ def add_to_bag(request, item_id):
         if bag[item_id]+quantity > settings.MAX_QUANTITY_FOR_PRODUCT:
             messages.error(
                 request,
-                f'You have reached the maximum quantity allowed: /'
-                '{settings.MAX_QUANTITY_FOR_PRODUCT}')
+                f'You have reached the maximum quantity allowed: '
+                f'{settings.MAX_QUANTITY_FOR_PRODUCT}')
             return redirect(redirect_url)
         bag[item_id] += quantity
     else:
@@ -65,8 +65,8 @@ def adjust_bag(request, item_id):
         else:
             messages.error(
                 request,
-                f'Maximum quantity allowed is /'
-                '{settings.MAX_QUANTITY_FOR_PRODUCT}')
+                f'Maximum quantity allowed is '
+                f'{settings.MAX_QUANTITY_FOR_PRODUCT}')
     else:
         bag.pop(item_id)
 
