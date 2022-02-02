@@ -344,15 +344,11 @@ products_models.py | 0 errors | [Results](readme_files/testing/validators/pep8/p
 products_urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/products/products_urls.png)
 products_views.py | 0 errors | [Results](readme_files/testing/validators/pep8/products/products_views.png)
 products_widget.py | 0 errors | [Results](readme_files/testing/validators/pep8/products/products_widget.png)
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
-settings.py | 0 errors | [Results]()
+profiles/apps.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_apps.png)
+profile/forms.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_forms.png)
+profile/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_models.png)
+profiles/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_urls.png)
+profile/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_views.png)
 <br>
 
 ### Browser Validation
