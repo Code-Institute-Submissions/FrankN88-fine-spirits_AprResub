@@ -163,7 +163,7 @@ The information architecture was organized in a fluid and clear way in order to 
 ### Skeleton and Wireframes
 Wireframe mockups were created in Figma Workspace [Click here for final wireframes](readme_files/wireframes).
 The mobile view is intentionally made disproportionate to show how the full page might look on a mobile screen.
-Several style changes were made in the final project compared to the inital wireframe on [Figma](https://www.figma.com/ "Link to Figma page"). Those changes were mainly related to colours, font size, positioning on the page; all aimed at providing the best user experience and responsiveness.
+Several style changes were made in the final project compared to the inital wireframe on [Figma](https://www.figma.com/ "Link to Figma page"). Those changes were mainly related to colours, font size, positioning on the page; all aimed at providing the best user experience and responsiveness. The desktop views represent the first wireframes while the tablet and mobile views the last ones, modified specifically for smaller devices.
 
 ---
 
