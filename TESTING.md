@@ -350,13 +350,9 @@ profile/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/pro
 <br>
 
 ### Browser Validation
-- I have used [Lambda Test](https://www.lambdatest.com/) for cross-browser testing among the major browsers. 
-- [Click here to check browser testing](xxx).
-
-- **Microsoft Edge**: Website and user stories work as expected. 
-- **Google Chrome**: Website and user stories work as expected. 
-- **Safari**: Website and user stories work as expected.
-- **Firefox**: Website and user stories work as expected. 
+- I have used [Lambda Test](https://www.lambdatest.com/) for cross-browser testing among the major browsers. Lambda test is a fantastic testing website that allows free testing up to a certain amount of devices.
+- Website and user stories work as expected. 
+- [Click here to check browser testing](readme_files/testing/browser).
 
 <br>
 
