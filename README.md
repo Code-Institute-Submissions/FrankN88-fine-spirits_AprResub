@@ -430,7 +430,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
         <details><summary>Home</summary>
-        <img src="add_image">
+        <img src="readme_files/features/feature_devices/home_devices_feature.png">
         </details>
   </dd>
 
@@ -471,7 +471,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
          <details><summary>Login</summary>
-         <img src="docs/wireframes/login_devices.png">
+         <img src="readme_files/features/feature_devices/login_devices_feature.png">
          </details>
   </dd>
 
@@ -509,7 +509,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
          <details><summary>Registration</summary>
-         <img src="docs/wireframes/registration_devices.png">
+         <img src="readme_files/features/feature_devices/register_devices_feature.png">
          </details>
   </dd>
 
