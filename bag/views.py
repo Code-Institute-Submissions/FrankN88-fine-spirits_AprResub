@@ -12,7 +12,7 @@ from products.models import Product
 
 
 def view_bag(request):
-    """ A view that renders the bag contents page """
+    """ A view that renders the bag contents page"""
 
     context = {
         'max_quantity': settings.MAX_QUANTITY_FOR_PRODUCT,

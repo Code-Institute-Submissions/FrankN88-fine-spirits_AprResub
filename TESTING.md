@@ -320,10 +320,8 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 fine_spirits/settings.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits/fine_spirits_setting.png)
 fine_spirits/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/fine_spirits/fine_spirits:urls.png)
-bag/admin.py | 0 errors | [Results](readme_files/testing/validators/pep8/bag/bag_admin.png)
 bag/apps.py | 0 errors | [Results](readme_files/testing/validators/pep8/bag/bag_apps.png)
 bag/contexts.py | 0 errors | [Results](readme_files/testing/validators/pep8/bag/bag_contexts.png)
-bag/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/bag/bag_models.png)
 bag/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/bag/bag_urls.png)
 bag/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/bag/bag_views.png)
 checkout/admin.py | 0 errors | [Results](readme_files/testing/validators/pep8/checkout/checkout_admin.png)
