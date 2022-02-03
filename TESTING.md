@@ -367,15 +367,13 @@ profile/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/pro
 
 Page | Test Detail/Screenshot
 ------------ | -------------
-home.html | [Results](xx)
-login.html | [Results](xx)
-registration.html | [Results](xx)
-bag.html | [Results](xx)
-add_product.html | [Results](xx)
-edit_product.html | [Results](xx)
-products.html | [Results](xx)
-product_detail.html | [Results](xx)
-profile.html | [Results](xx)
+home.html | [Results](readme_files/testing/lighthouse/home_lighthouse.png)
+login.html | [Results](readme_files/testing/lighthouse/login_lighthouse.png)
+registration.html | [Results](readme_files/testing/lighthouse/registration_lighthouse.png)
+bag.html | [Results](readme_files/testing/lighthouse/bag_lighthouse.png)
+products.html | [Results](readme_files/testing/lighthouse/products_lighthouse.png)
+product_detail.html | [Results](readme_files/testing/lighthouse/product_detail_lighthouse.png)
+profile.html | [Results](readme_files/testing/lighthouse/profile_lighthouse.png)
 
 <br>
 
@@ -430,7 +428,7 @@ Bug no. | Bug description |  Bug fix |
 5 | Django error "object is not iterable"| During the testing phase i have noticed that the anonymous user, when completing the purchase, could not proceed due to the aforementioned error.
 6 | Button attached to each other in the bag mobile view| I have noticed this issue towards the end so i have acted on css to fix it.
 7 | Setting up the email| After finalising a purchase i have realised that the email service was not working. A great amount of time has been spent in dealing with this issue. Tutors have helped troubleshooting and i have managed to fix this bug by setting up a new webhook in Stripe.
-
+8 | Bug in checkout/forms.py | During the testing phase i have realised that the app would crash when clicking checkout. There was a missing element in the checkout template that was present in the py file.
 
 <br>
 
