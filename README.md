@@ -538,7 +538,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
          <details><summary>Bag</summary>
-         <img src="docs/wireframes/registration_devices.png">
+         <img src="readme_files/features/feature_devices/bag_devices_feature.png">
          </details>
   </dd>
 
@@ -566,7 +566,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
          <details><summary>Products</summary>
-         <img src="docs/wireframes/registration_devices.png">
+         <img src="readme_files/features/feature_devices/products_devices_feature.png">
          </details>
   </dd>
 
@@ -592,7 +592,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
          <details><summary>Product Detail</summary>
-         <img src="docs/wireframes/registration_devices.png">
+         <img src="readme_files/features/feature_devices/product_detail_devices_feature.png">
          </details>
   </dd>
 
@@ -629,7 +629,7 @@ Each page of the website features a consistent responsive navigational system:
           </li>
      </ul>
          <details><summary>Profile</summary>
-         <img src="docs/wireframes/registration_devices.png">
+         <img src="readme_files/features/feature_devices/profile_devices_feature.png">
          </details>
   </dd>
 
