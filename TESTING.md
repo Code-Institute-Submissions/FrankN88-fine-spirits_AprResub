@@ -433,17 +433,12 @@ Bug no. | Bug description |  Bug fix |
     <img src="readme_files/email/testing_email.png">
   </details>
 
- - <strong>Welcome message - </strong> The registered user can see his name on the page.
+ - <strong>Feedback to the user - </strong> When the user makes any action on the website there is always a feedback (e.g after buying, sending the email, adding to the bag etc). This feature increases user experience.
    <details><summary>Evidence</summary>
-    <img src="docs/testing/other_features/personalised_message.png">
+    <img src="add_image">
   </details>
 
- - <strong>Hover effect - </strong> Both the admin and any user always trigger a hover effect that helps with clicling onto the right button.
-   <details><summary>Evidence</summary>
-    <img src="docs/testing/other_features/hover_admin.gif">
-  </details>
-
- - <strong>Adding profile image - </strong> The logged in user can add the profile image to his/her page. A the moment it is a simple page where the image gets uploaded, just to show the functionality for learning purposes. In the future could be developed into a proper profile page.
+ - <strong>xxx - </strong> xxx 
    <details><summary>Evidence</summary>
     <img src="docs/testing/crud/image_crud_functions.png">
   </details>
@@ -455,9 +450,16 @@ Bug no. | Bug description |  Bug fix |
 - Use of <code>.gitignore</code> to hide all secret keys.
 - Only the default DJANGO insecure key has been initially pushed to Github. Later on, after delploying onto heroku, a new secure key has been generated, inserted into the env.py file which has been as well secured from pushing thanks to the .gitignore file.
 The reasons why the unsafe default django key has been initially pushed onto the repository are:
-   - Following the Boutique-Ado tutorials the key gets initially committed and then changed later towards the end of the project.
+   - Following the walkthrough project, i saw the key getting initially committed and then changed later towards the end of the project.
    - I was experiencing issues in removing the key initially and running the server locally. Therefore I decided to proceed with the project and I have asked for help from the tutors later. The trials to remove the key are visible in the initials commits.
    - Being insecure by default it had to be changed regardless.
+- The maximum (15 bottles) and minimum (1 bottle) quantities have been set up in the code for two reasons:
+   - To keep it as real as possible. In fact for stock limitations and legal reasons there is always a limit in the number of bottles that can be purchased
+   - If that limit is not set up in the source code, it could be easily modified through the Dev Tools to a huge number exposing this way the website to malicious events or simply ruining its credibility.
+   <details><summary>Click here for an example</summary>
+    <img src="readme_files/testing/user_stories/manual_testing/limited_maximum_quantity.png">
+  </details>
+
 #### App
 - Only the <strong>Website owner/Admin</strong> has some privileges, such as:
   - Add/Edit/Remove products.
