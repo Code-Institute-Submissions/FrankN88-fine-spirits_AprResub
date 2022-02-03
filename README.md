@@ -117,7 +117,7 @@ The steps a new user would ideally take when landing onto the website are the fo
   - Explore the additional features available to registered users.
   - Purchase the desired bottle.
   - Get the feedback of the purchase.
-  - Log in/out to check the progress.
+  - Log in/out.
   - Check out the links in the footer.
 
 The website needs to enable the **User** to:
@@ -147,8 +147,8 @@ This will all be achieved through creating a clear and strong UI focusing on wel
 
 - **Lower priority features that may not be included in the initial release of the website:**
   - The ability for logged in users to search the website database.
-  - Search bar on the navigation bar so the users have fast access to their researches.
-  - Contact section to send an email to the Admin directly from the website.
+  - The possibility to leave comments.
+  - Contact section to send an email to the Admin directly from the website (like emailJS).
 
 ---
 
@@ -169,7 +169,7 @@ Several style changes were made in the final project compared to the inital wire
 
 ## DESIGN
 
-The design of the website was created to be as simple and harmonious as possible, not to distract the user with too many color schemes and trying to bring the focus onto the game itself.
+The design of the website was created to be as simple and harmonious as possible, not to distract the user with too many color schemes and trying to bring the focus onto the products.
 
 ### **Color scheme**
 
@@ -190,14 +190,14 @@ Please check out the colour Colour palette.
 
 ### **Imagery**
 
-- For this specific project imagery has been kept very minimalist in order to concentrate the work on the functionality of the app. Images have been selected from [Unsplash](https://unsplash.com/ "Link to Unsplash page").
+- For this specific project imagery has been kept simple in order to concentrate the work on the functionality of the app. Images have been selected from [Unsplash](https://unsplash.com/ "Link to Unsplash page").
 - Other images come from my personal archive.
 
 ---
 
 ### **Logo**
 
-- The favicon was created using [Favicon.io](https://favicon.io/favicon-converter/) and the logo used to create it was created using an online application called [Freelogodesign](https://it.freelogodesign.org/). It represents a simple glass/botle with the "Fine Spirits" words.
+- The favicon was created using [Favicon.io](https://favicon.io/favicon-converter/) and the logo used to create it was created using an online application called [Freelogodesign](https://it.freelogodesign.org/). It represents a simple glass/bottle with the "Fine Spirits" words.
  <details><summary>Logo</summary>
     <img src="static/img/logo.jpg">
  </details>
@@ -208,7 +208,7 @@ Please check out the colour Colour palette.
 
 ### Database model features
 
-- The website is a data-centric one with html, javascript, css used with the bootstrap (version 5) framework as a frontend
+- The website is a data-centric one with html, javascript, css used with the bootstrap (version 5) framework as a frontend.
 - The backend consists of Python built with the Django framework with a database of a Postgres for the deployed Heroku version (production).
 - [Postgres](https://www.postgresql.org/) is a powerful, open source object-relational database system.
 - [SQLLite](https://www.sqlite.org/index.html) database was used for local development. 
@@ -328,7 +328,7 @@ Each page of the website features a consistent responsive navigational system:
 <br>
 
 #### Footer
-- In the footer is embedded a pop up that warns about the legal age to access pages that sell alcoholic beverages. This is a legal requirement in most countries.
+- In the footer is embedded a pop up that warns about the legal age to access pages that sell alcoholic beverages. This is a legal requirement in many countries.
   <details><summary>Footer</summary>
     <img src="readme_files/popup/over_18_popup.png">
   </details>
@@ -714,6 +714,10 @@ Each page of the website features a consistent responsive navigational system:
 
 - [Postgres Db](https://www.postgresql.org/)
   - PostgreSQL is a powerful, open source object-relational database system.
+
+- [PEP8 Online Check](http://pep8online.com/)
+  - PEP8 online is an online validator for the PY Code.
+
 
 ---
 
