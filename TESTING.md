@@ -208,7 +208,7 @@ Manual testing was conducted on the following pages in order to assess responsiv
 ### Home Page
 Manual testing was conducted on the following elements of the [Home Page](index.html):
 
- - All the elements are responsive (header, footer, cards).
+ - All the elements are responsive (header, footer, carousel).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Home Page</summary>
     <img src="readme_files/testing/user_stories/manual_testing/home.gif">
@@ -235,7 +235,7 @@ Manual testing was conducted on the following elements of the [Registration Page
 ### Bag
 Manual testing was conducted on the following elements of the [Bag Page](bag.html):
 
- - All the elements are responsive (header, footer, text).
+ - All the elements are responsive (header, footer, text, image).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Bag Page</summary>
     <img src="readme_files/testing/user_stories/manual_testing/bag.gif">
@@ -253,7 +253,7 @@ Manual testing was conducted on the following elements of the [Products Page](pr
 ### Product detail
 Manual testing was conducted on the following elements of the [Product Detail](product_detail.html):
 
- - All the elements are responsive (header, footer, text).
+ - All the elements are responsive (header, footer, text, cards).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Product detail Page</summary>
     <img src="readme_files/testing/user_stories/manual_testing/product_detail.gif">
@@ -262,7 +262,7 @@ Manual testing was conducted on the following elements of the [Product Detail](p
 ### Profile
 Manual testing was conducted on the following elements of the [Profile Page](profile.html):
 
- - All the elements are responsive (header, footer, text).
+ - All the elements are responsive (header, footer, text, form, buttons).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Profile Page</summary>
     <img src="readme_files/testing/user_stories/manual_testing/profile.gif">
@@ -273,7 +273,7 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
 ## Automated Testing  :wrench:
 
 ### Code Validation
-- The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` code used.
+- The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` code used. Where not possible to validate by URI i have used the source code.
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------

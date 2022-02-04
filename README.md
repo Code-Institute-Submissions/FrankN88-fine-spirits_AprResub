@@ -329,7 +329,7 @@ Each page of the website features a consistent responsive navigational system:
 
 #### Footer
 - In the footer is embedded a pop up that warns about the legal age to access pages that sell alcoholic beverages. This is a legal requirement in many countries.
-  <details><summary>Footer</summary>
+  <details><summary>POP UP</summary>
     <img src="readme_files/popup/over_18_popup.png">
   </details>
 - The **Footer** contains the appropriate **social media icons**, linking users to the main social media pages of the shop. 
@@ -370,7 +370,7 @@ Each page of the website features a consistent responsive navigational system:
 <br>
 
 #### Search Button 
-- In the top right corner of every page, there is a **Search Button** . The customer can enter directly the name of the product he/she interested to purchase or the kind of spirit (e.g. Gin). This improves the UX experience.
+- In the top right corner of every page, there is a **Search Button** . The customer can enter directly the name of the product he/she interested to purchase or the kind of spirit (e.g. Cognac). This improves the UX experience.
 <ul>
     <li><strong>User stories covered by this feature:</strong>  
     </li>
