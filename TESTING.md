@@ -435,12 +435,12 @@ Bug no. | Bug description |  Bug fix |
 
  - <strong>Feedback to the user - </strong> When the user makes any action on the website there is always a feedback (e.g after buying, sending the email, adding to the bag etc). This feature increases user experience.
    <details><summary>Evidence</summary>
-    <img src="add_image">
+    <img src="readme_files/testing/user_stories/feedback_to_user.png">
   </details>
 
- - <strong>xxx - </strong> xxx 
+ - <strong>Reset password - </strong> The user can reset the password in case it has been forgotten. The procedure is the standard password reset via a confirmation email with a link.
    <details><summary>Evidence</summary>
-    <img src="docs/testing/crud/image_crud_functions.png">
+    <img src="readme_files/testing/user_stories/password_reset.png">
   </details>
 
 ### Security Features Considered
