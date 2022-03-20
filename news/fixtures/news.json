@@ -1,0 +1,28 @@
+[
+    {
+       "model":"news.news",
+       "pk":7,
+       "fields":{
+          "title":"GRAPPA",
+          "user":1,
+          "news_item_text":"New Grappa arrived",
+          "image":"static/img/slide_home.jpg",
+          "update_date":"2022-03-15T13:54:10.219Z",
+          "create_date":"2022-03-15T13:54:10.219Z",
+          "status":1
+       }
+    },
+    {
+       "model":"news.news",
+       "pk":8,
+       "fields":{
+          "title":"COGNAC",
+          "user":1,
+          "news_item_text":"New Cognac arrived",
+          "image":"static/img/slide_home.jpg",
+          "update_date":"2022-03-15T14:03:58.716Z",
+          "create_date":"2022-03-15T14:03:46.472Z",
+          "status":1
+       }
+    },
+ ]
