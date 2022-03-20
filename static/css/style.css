@@ -605,12 +605,93 @@ footer a:hover{
 
 /* CSS FOR NEWS APP */
 
-.news-items-row {
-    margin-bottom: 50px
+.news-card {
+    width: 400px;
+    border: 0;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.news-card-img-top {
+    width: 400px ;
+    height: 400px ;
+    border: 0;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* --- News item --- */
+.news-card-detail-img-top {
+    width: 500px ;
+    height: 500px ;
+
 }
 
-.news-card {
-    margin-bottom: 50px !important
+@media screen and (max-width: 576px) {
+    /* --- Generic --- */
+    .container {
+      max-width: 100%;
+    }
+    .card-img-top {
+        height: 300px;
+        border: 0;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    /* --- News item --- */
+    .news-card {
+        width: 300px;
+    }
+    .news-card-img-top {
+        width: 280px;
+        height: 280px;
+    }
+    .card-img-top {
+        width: 280px;
+        height: 280px;
+    }
+    /* --- News item --- */
+    .news-card-detail-img-top {
+        width: 300px ;
+        height: 300px ;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+    /* --- News --- */
+    .news-card {
+        width: 300px;
+    }
+    .news-card-img-top {
+        height: 300px;
+        width: 300px;
+    }
+    /* --- News item detail --- */
+    .news-card-detail-img-top {
+        width: 400px ;
+        height: 400px ;
+    }
+  }
+
+@media (max-width: 320px) {
+    .container {
+      max-width: 100%;
+    }
+    .news-card {
+        width: 250px;
+    }
+    .news-card-img-top {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* --- News item --- */
+    .news-card-detail-img-top {
+        width: 200px ;
+        height: 200px ;
+    }
 }
 
 /* CSS FOR NEWS APP END */
