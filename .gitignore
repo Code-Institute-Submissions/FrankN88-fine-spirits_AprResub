@@ -10,3 +10,4 @@ cloudinary_python.txt
 .DS_Store
 *.sqlite3
 env.py
+env
