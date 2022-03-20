@@ -602,3 +602,15 @@ footer a:hover{
     padding: 5px;
     margin-bottom: 20px;
 }
+
+/* CSS FOR NEWS APP */
+
+.news-items-row {
+    margin-bottom: 50px
+}
+
+.news-card {
+    margin-bottom: 50px !important
+}
+
+/* CSS FOR NEWS APP END */
