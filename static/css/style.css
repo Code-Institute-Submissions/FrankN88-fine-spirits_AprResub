@@ -675,7 +675,7 @@ footer a:hover{
     }
   }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     .container {
       max-width: 100%;
     }
@@ -694,4 +694,22 @@ footer a:hover{
     }
 }
 
+@media (max-width: 350px) {
+    .container {
+      max-width: 100%;
+    }
+    .news-card {
+        width: 200px;
+    }
+    .news-card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* --- News item --- */
+    .news-card-detail-img-top {
+        width: 150px ;
+        height: 150px ;
+    }
+}
 /* CSS FOR NEWS APP END */
