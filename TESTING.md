@@ -363,6 +363,7 @@ news/forms.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/n
 news/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_models.png)
 news/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_urls.png)
 news/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_views.png)
+utils/util.py | 0 errors | [Results](readme_files/testing/validators/pep8/utils/utils.png)
 <br>
 
 ### Browser Validation
