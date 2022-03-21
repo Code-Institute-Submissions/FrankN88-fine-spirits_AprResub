@@ -268,6 +268,15 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
     <img src="readme_files/testing/user_stories/manual_testing/profile.gif">
    </details>
 
+### News
+Manual testing was conducted on the following elements of the [Profile Page](news.html):
+
+ - All the elements are responsive (header, footer, text, form, buttons).
+ - The buttons in the Navbar turns into smaller buttons ordered in the same way.
+   <details><summary>News Page</summary>
+    <img src="readme_files/testing/user_stories/news.gif">
+   </details>
+
 <br>
 
 ## Automated Testing  :wrench:
@@ -286,6 +295,7 @@ edit_product.html | Passed, No errors found | [Results](readme_files/testing/val
 products.html | Passed, No errors found | [Results](readme_files/testing/validators/html/products.jpg)
 product_detail.html | Passed, No errors found | [Results](readme_files/testing/validators/html/product_detail.jpg)
 profile.html | Passed, No errors found | [Results](readme_files/testing/validators/html/profile.png)
+news.html | Passed, No errors found | [Results](readme_files/testing/validators/html/news.png)
 
 <br>
 
@@ -309,6 +319,7 @@ Page | Result | Test Detail/Screenshot
 countryfield.js | 0 errors | [Results](readme_files/testing/validators/js/countryfield_js.png)
 script.js | 0 errors | [Results](readme_files/testing/validators/js/script_js.png)
 stripe_elements.js | 0 errors | [Results](readme_files/testing/validators/js/stripe_elements_js.png)
+news.js | 0 errors | [Results](readme_files/testing/validators/js/news_js.png)
 
 <br>
 
@@ -368,6 +379,7 @@ bag.html | [Results](readme_files/testing/lighthouse/bag_lighthouse.png)
 products.html | [Results](readme_files/testing/lighthouse/products_lighthouse.png)
 product_detail.html | [Results](readme_files/testing/lighthouse/product_detail_lighthouse.png)
 profile.html | [Results](readme_files/testing/lighthouse/profile_lighthouse.png)
+news.html | [Results](readme_files/testing/lighthouse/news_lighthouse.png)
 
 <br>
 
