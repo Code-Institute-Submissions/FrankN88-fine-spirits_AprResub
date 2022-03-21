@@ -358,6 +358,11 @@ profile/forms.py | 0 errors | [Results](readme_files/testing/validators/pep8/pro
 profile/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_models.png)
 profiles/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_urls.png)
 profile/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/profiles/profiles_views.png)
+news/admin.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_admin.png)
+news/forms.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_forms.png)
+news/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_models.png)
+news/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_urls.png)
+news/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_views.png)
 <br>
 
 ### Browser Validation
