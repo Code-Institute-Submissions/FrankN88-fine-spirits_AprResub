@@ -269,7 +269,7 @@ Manual testing was conducted on the following elements of the [Profile Page](pro
    </details>
 
 ### News
-Manual testing was conducted on the following elements of the [Profile Page](news.html):
+Manual testing was conducted on the following elements of the [News Page](news.html):
 
  - All the elements are responsive (header, footer, text, form, buttons).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
