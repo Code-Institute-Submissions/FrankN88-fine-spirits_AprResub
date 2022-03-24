@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+    <div class="overlay"></div>
+    <div class="container justify-content-center">
+        <div class="row">
+            <div class="col text-center">
+                <hr>
+                <h2 class="logo-font mb-4">Hello to my Workshop!</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-9 offset-md-2 text-center ">
+                    <h6 class="blog-title"> Welcome to my blog, where I will post tutorial and crafting techniques of some of the items I handcraft so you can try 
+                        make them yourself. I am looking forward to see what you create! 
+                    </h6>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col">
+                {% if request.user.is_superuser %}
+                <button class="btn btn-blue btn-sm border rounded hvr-grow mr-2">
+                    <a href="{% url 'add_post' %}" class="text-blue post-button"><i class="fas fa-plus"></i>
+                        Add New Post</a>
+                </button>
+                <button class="btn btn-blue btn-sm border rounded hvr-grow">
+                    <a href="{% url 'postcategories' %}" class="text-blue post-button"><i class="fas fa-plus"></i>
+                        Manage Blog Categories</a>
+                </button>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--BlogPost-->
+    <div class="container">
+        <hr>
+        <div class="row mt-1 mb-2"></div>
+        <div class="row p-1">
+            <div class="col-12 col-md-3 blog-category-card">
+                <div>
+                    <h3 class="title-font text-center pt-2">Categories</h3>
+                    <p class="text-center">Select your category</p>
+                    <hr class="break-md">
+                    <!--category for loops-->
+                    {% for postcategory in postcategories %}
+                        <a class="mb-2 text-center btn btn-blue btn-sm border rounded hvr-grow d-flex justify-content-center text-capitalize" href="{% url 'posts' %}?postcategory={{ postcategory.name }}">{{ postcategory.friendly_name }}</a>
+                    {% endfor %}
+                        <a class="mb-2 text-center btn btn-blue border btn-sm rounded hvr-grow d-flex justify-content-center" href="{% url 'posts' %}">All Posts</a>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-12 col-md-9 ml-0 blog-card">
+                {% for post in posts %}
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12">
+                                {% if post.image %}
+                                <a href="{{ post.image.url }}" target="_blank">
+                                    <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
+                                </a>
+                                {% else %}
+                                <a href="">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}blognoimage.png" alt="Post Image not available">
+                                </a>
+                            {% endif %}
+                            </div>
+                            <div class="col-12">
+                                <h2 class="title-font mt-2">{{ post.title }}</h2>
+                                <p class="post-author text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                                <p class="post-text">{{post.content|slice:":100" }}...</p>
+                                <div>
+                                    {% if request.user.is_superuser %}
+                                            <a class="btn btn-info hvr-grow mr-1 rounded" href="{% url 'edit_post' post.id %}">Edit</a>  
+                                            <a class="btn btn-danger hvr-grow rounded" href="{% url 'delete_post' post.id %}">Delete</a>
+                                        {% endif %}
+                                    <a class=" btn float-right btn-blue hvr-grow rounded" href="{% url 'post_detail' post.id %}"><strong>Read More</strong></a>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="btt-button shadow-sm rounded border hvr-grow">
+        <a class="btt-link d-flex h-100">
+            <i class="fas fa-arrow-up text-blue mx-auto my-auto"></i>
+        </a>	
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
+{% endblock %}
