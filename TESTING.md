@@ -305,6 +305,7 @@ products.html | Passed, No errors found | [Results](readme_files/testing/validat
 product_detail.html | Passed, No errors found | [Results](readme_files/testing/validators/html/product_detail.jpg)
 profile.html | Passed, No errors found | [Results](readme_files/testing/validators/html/profile.png)
 news.html | Passed, No errors found | [Results](readme_files/testing/validators/html/news.png)
+blogs sourcecode | Passed, No errors found | [Results](readme_files/testing/validators/html/blogs_html_sourcecode.png)
 
 <br>
 
