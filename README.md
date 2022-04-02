@@ -658,6 +658,33 @@ Each page of the website features a consistent responsive navigational system:
          </details>
   </dd>
 
+  <dt><a href="posts.html" target="_blank" alt="Blogs">Blogs</a></dt>
+     <ul>
+         <li><strong>User stories covered by this feature:</strong>  
+      </li>
+         <li><strong>1</strong> - Be able to easily navigate throughout the site to visualise content and contacts.
+      </li>
+         <li><strong>2</strong> - Check out a specific bottle, visualise the relative details and price.
+      </li>
+      </li>
+         <li><strong>4</strong> - Locate their social media links to see their followings on social media in order to be updated about their latest releases.
+      </li>
+     </ul>
+
+  <dd>The Blogs page consists of the following elements:
+     <ul>
+          <li><strong>Title</strong> - Title of the with the number of new items
+          </li>
+          <li><strong>Categories</strong> - A list of categories with the possibility to filter.
+          </li>
+          <li><strong>Macro areas</strong> - Such as "Friends of Grappa", "We all love gin" etc...
+          </li>
+     </ul>
+         <details><summary>Blogs</summary>
+         <img src="readme_files/wireframes/desktop/blog_readme.png">
+         </details>
+  </dd>
+
   <br>
 
 ### Features left to implement
