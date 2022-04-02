@@ -377,10 +377,10 @@ news/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/n
 utils/util.py | 0 errors | [Results](readme_files/testing/validators/pep8/utils/utils.png)
 blogs/admin.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_admin.png)
 blogs/forms.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_forms.png)
-blogs/models.py | 0 errors | [Results]()
-blogs/urls.py | 0 errors | [Results]()
-blogs/views.py | 0 errors | [Results]()
-blogs/widgets.py | 0 errors | [Results]()
+blogs/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_models.png)
+blogs/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_urls.png)
+blogs/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_views.png)
+blogs/widgets.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_widgets.png)
 <br>
 
 ### Browser Validation
