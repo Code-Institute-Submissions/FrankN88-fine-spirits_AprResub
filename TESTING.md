@@ -375,6 +375,12 @@ news/models.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/
 news/urls.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_urls.png)
 news/views.py | 0 errors | [Results](readme_files/testing/validators/pep8/news/news_views.png)
 utils/util.py | 0 errors | [Results](readme_files/testing/validators/pep8/utils/utils.png)
+blogs/admin.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_admin.png)
+blogs/forms.py | 0 errors | [Results](readme_files/testing/validators/pep8/blogs/blogs_forms.png)
+blogs/models.py | 0 errors | [Results]()
+blogs/urls.py | 0 errors | [Results]()
+blogs/views.py | 0 errors | [Results]()
+blogs/widgets.py | 0 errors | [Results]()
 <br>
 
 ### Browser Validation
