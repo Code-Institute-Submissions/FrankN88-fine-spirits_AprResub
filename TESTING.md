@@ -277,6 +277,15 @@ Manual testing was conducted on the following elements of the [News Page](news.h
     <img src="readme_files/testing/user_stories/news.gif">
    </details>
 
+### Blogs
+Manual testing was conducted on the following elements of the [Blogs Page](posts.html):
+
+ - All the elements are responsive (header, footer, text, elemtents, buttons).
+ - The buttons in the Navbar turns into smaller buttons ordered in the same way.
+   <details><summary>Blogs Page</summary>
+    <img src="">
+   </details>
+
 <br>
 
 ## Automated Testing  :wrench:
@@ -308,6 +317,7 @@ style.css | Passed, No errors found | [Results](readme_files/testing/validators/
 profile.css | Passed, No errors found | [Results](readme_files/testing/validators/css/profile_css.png)
 checkout.css | Passed, No errors found | [Results](readme_files/testing/validators/css/checkout_css.png)
 checkout_success.css | Passed, No errors found | [Results](readme_files/testing/validators/css/checkout_success_css.png)
+blog.css | Passed, No errors found | [Results](readme_files/testing/validators/css/blog_css.png)
 
 <br>
 
