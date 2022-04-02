@@ -264,6 +264,10 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.blog-container{
+    max-width: 90%
+}
+
 /*  Media Queries */
 
 
@@ -332,6 +336,7 @@ input[name='q']::placeholder {
    }
 
 }
+
 @media (max-width: 320px) {
     .shop-name {
         padding-top: 0px;
