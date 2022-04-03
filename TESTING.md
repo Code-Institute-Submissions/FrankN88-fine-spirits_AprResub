@@ -283,7 +283,7 @@ Manual testing was conducted on the following elements of the [Blogs Page](posts
  - All the elements are responsive (header, footer, text, elemtents, buttons).
  - The buttons in the Navbar turns into smaller buttons ordered in the same way.
    <details><summary>Blogs Page</summary>
-    <img src="">
+    <img src="readme_files/testing/user_stories/blog.gif">
    </details>
 
 <br>
